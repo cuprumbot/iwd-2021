@@ -52,7 +52,7 @@
  
                 <span class="invitation">
                         <center>
-                            ¿Quieres dar una conferencia o taller? <a href="https://forms.gle/e1ZutrLSXYgFRvJb9">Cuéntanos más.</a>
+                            ¿Quieres dar una conferencia o taller? <a href="https://docs.google.com/forms/d/e/1FAIpQLSenN-3MaAQBWhbCcHEEmLz4nwrOXghj5bCiIX4Crp5kBIUWlA/viewform">Cuéntanos más.</a>
                         </center>
                 </span>
 
@@ -111,10 +111,12 @@
     var inExpanded = false;
     var orderStaff = new Array();
 
+    var WIDTH_RESIZE = 750;
+
     // 2020
     //var logos = ['assets/img/logo-gdg.png', 'assets/img/logo-galileo.png', 'assets/img/logo-innovation-square.png', 'assets/img/logo-agexport-ito.png', 'assets/img/logo-wwcode.png', 'assets/img/logo-telus-square.png', 'assets/img/logo-guatemala-com.png'];
     // 2021
-    var logos = ['assets/img/logo-gdg.png', 'assets/img/logo-galileo.png', 'assets/img/logo-innovation-square.png', 'assets/img/logo-wwcode.png'];
+    var logos = ['assets/img/logo-gdg.png', 'assets/img/logo-galileo.png', 'assets/img/logo-innovation-square.png', 'assets/img/logo-main.png'];
 
 
     function generateHome(){
@@ -136,20 +138,17 @@
             html += '</span>';
 
             html += '<p>';
-            html += '<b><font size="3">0 de marzo de 2021 - Virtual</font></b><br>';
+            html += '<b><font size="3">Viernes 5 de marzo de 2021</font></b><br>';
             html += 'Evento virtual a través de Zoom<br>';
-            html += '8:00 a 14:00 horas<br>';
-            html += 'Charlas, talleres y panel de cierre.<br><br>';
+            html += '10:00 a 13:00 horas<br>';
+            html += '18:00 a 21:00 horas<br><br>';
 
-            /*
-            html += '<b><font size="3">Sábado 14 de marzo - Sede AGEXPORT</font></b><br>';
-            html += '15 avenida 14-72 zona 13.<br>';
-            html += '8:00 a 13:00<br>';
-            html += 'Charlas y keynote de cierre.'
+            html += '<b><font size="3">Sábado 6 de marzo de 2021</font></b><br>';
+            html += 'Evento virtual a través de Zoom<br>';
+            html += '9:00 a 13:00<br>';
             html += '</p>';
-            */
 
-            html += '<center><h2>¿Quieres dar una conferencia o taller? <a href="https://forms.gle/e1ZutrLSXYgFRvJb9">Cuéntanos más.</a></h2></center>'
+            html += '<center><h2>¿Quieres dar una conferencia o taller? <a href="https://docs.google.com/forms/d/e/1FAIpQLSenN-3MaAQBWhbCcHEEmLz4nwrOXghj5bCiIX4Crp5kBIUWlA/viewform">Cuéntanos más.</a></h2></center>'
         
         element.find('.section-body').html(html);
         
@@ -203,7 +202,7 @@
             html += '</p>';
 
 
-            html += '<center><h2>¿Quieres dar una conferencia o taller? <a href="https://forms.gle/e1ZutrLSXYgFRvJb9">Cuéntanos más.</a></h2></center>'
+            html += '<center><h2>¿Quieres dar una conferencia o taller? <a href="https://docs.google.com/forms/d/e/1FAIpQLSenN-3MaAQBWhbCcHEEmLz4nwrOXghj5bCiIX4Crp5kBIUWlA/viewform">Cuéntanos más.</a></h2></center>'
 
         
         element.find('.section-body').html(html);
@@ -405,7 +404,7 @@
 
         html += '</span>';
 
-        html += '<center><h2>¿Quieres dar una conferencia o taller? <a href="https://forms.gle/e1ZutrLSXYgFRvJb9">Cuéntanos más.</a></h2></center>'
+        html += '<center><h2>¿Quieres dar una conferencia o taller? <a href="https://docs.google.com/forms/d/e/1FAIpQLSenN-3MaAQBWhbCcHEEmLz4nwrOXghj5bCiIX4Crp5kBIUWlA/viewform">Cuéntanos más.</a></h2></center>'
 
 
         element.find('.section-body').html(html);
@@ -905,8 +904,8 @@
     }
 
     function populate() {
-        if(($(window).width() > 900)){
-                $('#innovation-logo').attr('src','assets/img/logo-main-noborder.png');
+        if(($(window).width() > WIDTH_RESIZE)){
+                $('#innovation-logo').attr('src','assets/img/logo-2021.png');
                 //logo-main-web
                 $('.background').html('<img src="" alt="">');
                 $('.background').find('img')[0].onload = () => {
@@ -915,10 +914,10 @@
                 }
                 //$('.background').find('img').attr('src','assets/img/fondo.png');
                 //gdg, wtm, wie, ug
-                if (($(window).height() > 490) && ($(window).width() > 900)) {
+                if (($(window).height() > 490) && ($(window).width() > WIDTH_RESIZE)) {
                     var html = '';
                     html += '<img src="" img-path="assets/img/logo-gdg.png" alt="GDG">';
-                    html += '<img src="" img-path="assets/img/logo-wwcode.png" alt="Women Who Code">';
+                    html += '<img src="" img-path="assets/img/logo-main.png" alt="Women Techmakers">';
                     html += '<img src="" img-path="assets/img/logo-wie.png" alt="Women In Engineering">';
                     html += '<img src="" img-path="assets/img/logo-galileo.png" alt="Universidad Galileo">';
                     html += '<img src="" img-path="assets/img/logo-innovation-square.png" alt="Innovation Lab">';
@@ -936,7 +935,7 @@
                     $("#galileo-logo").html("");
                 }
             }else{
-                $('#innovation-logo').attr('src','assets/img/logo-main-noborder.png');
+                $('#innovation-logo').attr('src','assets/img/logo-2021.png');
                 //logo-main-phone
                 $('.background').html('');
                 var html = '';

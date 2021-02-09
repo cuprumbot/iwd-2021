@@ -1716,12 +1716,13 @@ body {
               width: 200px; } }
 */
 
+/* find me logo principal */
           @media only screen and (max-width: 650px) {
             .title-container .inner-container .title-container .title .innovation-logo {
-              width: 200px; } }
+              width: 300px; } }
           @media only screen and (max-width: 380px) {
             .title-container .inner-container .title-container .title .innovation-logo {
-              width: 165px; } }
+              width: 250px; } }
       .title-container .inner-container .title-container .date {
         color: black;
         margin-bottom: 20px;
