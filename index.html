@@ -116,7 +116,7 @@
     // 2020
     //var logos = ['assets/img/logo-gdg.png', 'assets/img/logo-galileo.png', 'assets/img/logo-innovation-square.png', 'assets/img/logo-agexport-ito.png', 'assets/img/logo-wwcode.png', 'assets/img/logo-telus-square.png', 'assets/img/logo-guatemala-com.png'];
     // 2021
-    var logos = ['assets/img/logo-gdg.png', 'assets/img/logo-galileo.png', 'assets/img/logo-innovation-square.png', 'assets/img/logo-main.png'];
+    var logos = ['assets/img/logo-gdg.png', 'assets/img/logo-galileo.png', 'assets/img/logo-innovation-square.png', 'assets/img/logo-main.png', 'assets/img/logo-owsd.jpg', 'assets/img/logo-wie.png'];
 
 
     function generateHome(){
@@ -185,20 +185,19 @@
             html += '<p>';
             html += 'Incluimos como acoso:';
             html += '<ul>';
-            html += '<li>Los comentarios verbales ofensivos relacionados con el género, la identidad o expresión de género, edad, orientación sexual, discapacidad, apariencia física, raza, religión;</li>';
+            html += '<li>Los comentarios expresados (de manera escrita o verbal) ofensivos relacionados con el género, la identidad o expresión de género, edad, orientación sexual, discapacidad, apariencia física, raza, religión;</li>';
             html += '<li>Imágenes sexuales en espacios públicos;</li>';
             html += '<li>Intimidación deliberada;</li>';
             html += '<li>Acecho o persecución;</li>';
             html += '<li>El acoso con fotografías o vídeos;</li>';
             html += '<li>La interrupción sostenida de charlas u otros eventos;</li>';
-            html += '<li>El contacto físico inapropiado;</li>';
             html += '<li>La atención sexual no deseada.</li>';
             html += '</ul>';
             html += '</p>';
 
             html += '<p>';
             html += 'Los patrocinadores también se encuentran sujetos a esta política.<br><br>';
-            html += 'En concreto, los patrocinadores no deben usar imágenes, actividades u otro material sexualizado. El personal (incluyendo los voluntarios) no debe utilizar ropa/uniformes/disfraces sexualizados, o crear de ninguna otra forma un entorno sexualizado. Si un participante tiene un comportamiento de acoso, los organizadores de la conferencia podrán tomar cualquier acción que consideren apropiada, incluyendo advertir al infractor o su expulsión de la conferencia. Si estás siendo acosado, ves a alguien que lo está siendo o tienes alguna otra preocupación, por favor contacta con algún miembro de la organización inmediatamente. Los miembros de la organización estarán encantados de ayudar a los participantes a contactar con la seguridad del sitio o la policía local, proveer escolta o asistir de otra manera para ayudar a quienes están siendo acosados a sentirse seguros durante la conferencia. Valoramos tu asistencia. Esperamos que los participantes sigan estas reglas durante la conferencia.';
+            html += 'En concreto, los patrocinadores no deben usar imágenes, actividades u otro material sexualizado. El personal (incluyendo los voluntarios) no debe utilizar ropa/uniformes/disfraces sexualizados, o crear de ninguna otra forma un entorno sexualizado. Si un participante tiene un comportamiento de acoso, los organizadores de la conferencia podrán tomar cualquier acción que consideren apropiada, incluyendo advertir al infractor o su expulsión de la conferencia. Si estás siendo acosado, sabes de alguien que lo está siendo o tienes alguna otra preocupación, por favor contacta con algún miembro de la organización inmediatamente. Los miembros de la organización estarán listos y dispuestos para ayudar a los participantes en esta situación o asistir de otra manera para ayudar a quienes están siendo acosados a sentirse seguros durante la conferencia. Valoramos tu participación. Esperamos que los participantes sigan estas reglas durante la conferencia.';
             html += '</p>';
 
 
@@ -914,11 +913,13 @@
                 }
                 //$('.background').find('img').attr('src','assets/img/fondo.png');
                 //gdg, wtm, wie, ug
+                // LOGOS HERE
                 if (($(window).height() > 490) && ($(window).width() > WIDTH_RESIZE)) {
                     var html = '';
                     html += '<img src="" img-path="assets/img/logo-gdg.png" alt="GDG">';
                     html += '<img src="" img-path="assets/img/logo-main.png" alt="Women Techmakers">';
                     html += '<img src="" img-path="assets/img/logo-wie.png" alt="Women In Engineering">';
+                    html += '<img src="" img-path="assets/img/logo-owsd.jpg" alt="OWSD">';
                     html += '<img src="" img-path="assets/img/logo-galileo.png" alt="Universidad Galileo">';
                     html += '<img src="" img-path="assets/img/logo-innovation-square.png" alt="Innovation Lab">';
                     
