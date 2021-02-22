@@ -58,11 +58,11 @@
 
 
                 <span class="title-menu">
-                    <a id="home-access" class="btn-menu c1">Principal</a>
+                    <a id="home-access" class="btn-menu c1">Más información</a>
                     <!-- <a id="staff-access" class="btn-menu c2">Conferencistas</a> -->
                     <!-- <a id="agenda-access" class="btn-menu c3">Agenda</a> -->
                     <!-- <a id="place-access" class="btn-menu c4">Ubicación</a> -->
-                    <a id="conduct-access" class="btn-menu green">Código de Conducta</a>
+                    <a id="conduct-access" class="btn-menu c4">Código de Conducta</a>
                     <!-- <a id="register-access" class="btn-menu green solid">Registrate</a> -->
                 </span>
             </span>
@@ -111,12 +111,12 @@
     var inExpanded = false;
     var orderStaff = new Array();
 
-    var WIDTH_RESIZE = 750;
+    var WIDTH_RESIZE = 850;
 
     // 2020
     //var logos = ['assets/img/logo-gdg.png', 'assets/img/logo-galileo.png', 'assets/img/logo-innovation-square.png', 'assets/img/logo-agexport-ito.png', 'assets/img/logo-wwcode.png', 'assets/img/logo-telus-square.png', 'assets/img/logo-guatemala-com.png'];
     // 2021
-    var logos = ['assets/img/logo-gdg.png', 'assets/img/logo-galileo.png', 'assets/img/logo-innovation-square.png', 'assets/img/logo-main.png', 'assets/img/logo-owsd.jpg', 'assets/img/logo-wie.png'];
+    var logos = ['assets/img/logo-gdg.png', 'assets/img/logo-innovation-square.png', 'assets/img/logo-galileo.png', 'assets/img/logo-wwcode.png', 'assets/img/logo-main.jpg', 'assets/img/logo-owsd.png', 'assets/img/logo-wie.png'];
 
 
     function generateHome(){
@@ -904,7 +904,7 @@
 
     function populate() {
         if(($(window).width() > WIDTH_RESIZE)){
-                $('#innovation-logo').attr('src','assets/img/logo-2021.png');
+                $('#innovation-logo').attr('src','assets/img/logo-all-info.png');
                 //logo-main-web
                 $('.background').html('<img src="" alt="">');
                 $('.background').find('img')[0].onload = () => {
@@ -917,11 +917,15 @@
                 if (($(window).height() > 490) && ($(window).width() > WIDTH_RESIZE)) {
                     var html = '';
                     html += '<img src="" img-path="assets/img/logo-gdg.png" alt="GDG">';
-                    html += '<img src="" img-path="assets/img/logo-main.png" alt="Women Techmakers">';
-                    html += '<img src="" img-path="assets/img/logo-wie.png" alt="Women In Engineering">';
-                    html += '<img src="" img-path="assets/img/logo-owsd.jpg" alt="OWSD">';
-                    html += '<img src="" img-path="assets/img/logo-galileo.png" alt="Universidad Galileo">';
                     html += '<img src="" img-path="assets/img/logo-innovation-square.png" alt="Innovation Lab">';
+                    html += '<img src="" img-path="assets/img/logo-galileo.png" alt="Universidad Galileo">';
+                    html += '<img src="" img-path="assets/img/logo-wwcode.png" alt="Women Who Code">';
+                    html += '<img src="" img-path="assets/img/logo-main.png" alt="Women Techmakers">';
+                    html += '<img src="" img-path="assets/img/logo-owsd.jpg" alt="OWSD">';
+                    html += '<img src="" img-path="assets/img/logo-wie.png" alt="Women In Engineering">';
+                    
+                    
+                    
                     
                     $("#galileo-logo").html(html);
 
@@ -936,7 +940,7 @@
                     $("#galileo-logo").html("");
                 }
             }else{
-                $('#innovation-logo').attr('src','assets/img/logo-2021.png');
+                $('#innovation-logo').attr('src','assets/img/logo-all-info.png');
                 //logo-main-phone
                 $('.background').html('');
                 var html = '';
@@ -983,6 +987,7 @@
 
     function activateCarousel(){
         var index = 4;
+        var lim = logos.length;
 
         var leftElement = $('#galileo-logo').find('.external-container').find('.left-logo').find('img');
         leftElement[0].onload = () => {
@@ -1011,7 +1016,7 @@
                     var right = xc.find('.right-logo');
                     var center = xc.find('.center-logo');
 
-                    right.find('img').attr('src', logos[index++%5]);
+                    right.find('img').attr('src', logos[index++%lim]);
 
                     left.removeClass('left-logo');
                     left.addClass('center-logo');

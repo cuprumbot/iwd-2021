@@ -1376,7 +1376,8 @@ body {
 
 .galileo-logo {
   position: fixed;
-  bottom: 0;
+  height: 0px;
+  bottom: -100px;
   padding: 1px 0;
   display: flex;
   flex-wrap: wrap;
@@ -1386,7 +1387,8 @@ body {
   z-index: 1;
   margin-bottom: 1px;
   transition: 0.4s ease; }
-  @media only screen and (max-width: 900px) {
+  /* 850 width_resize variable */
+  @media only screen and (max-width: 850px) {
     .galileo-logo {
       margin-bottom: 0;
       z-index: -1; }
@@ -1469,11 +1471,11 @@ body {
     margin-left: 40px;
     transform: translateX(-85px);
     transition: 0.3s ease;
-    background: #1a73e8;
-    color: white; }
+    color: #1a73e8;
+    background: white; }
     .back-container .btn-back:hover, .back-container .btn-back:active, .back-container .btn-back:focus {
       transform: scale(1.2) !important;
-      color: white; }
+      color: #1a73e8; }
 
 .dynamic-expanded-information {
   position: fixed;
@@ -1635,7 +1637,8 @@ body {
   width: 100vw;
   height: 100vh;
   z-index: 1;
-  transition: 0.4s ease; }
+  transition: 0.4s ease;
+  background-color: #3e80f2; }
   .title-container .inner-container {
     position: relative;
     display: flex;
@@ -1660,19 +1663,35 @@ body {
         -khtml-user-select: none;
         -webkit-user-select: none;
         -o-user-select: none; }
-      .title-container .inner-container .title-container .invitation {
+      
+      .invitation {
         width: 90vw;
         word-break: break-word;
-        color: black;
+        color: white;
         font-size: 22px;
         transition: 0.2s ease;
         font-weight: bold;
         height: auto;
         padding: 10px 1px; }
+      .invitation a {
+        color: #ffb8b8;
+      }
+      .dynamic-information {
+        color: white;
+      }
+      .dynamic-information .section-body p {
+        color: white;
+      }
+      .dynamic-information a {
+        color: #ffb8b8;
+      }
+
+
       .title-container .inner-container .title-container .title {
-        transform: translateY(10px);
+        /*transform: translateY(10px);*/
+        line-height: 1.0;
         color: black;
-        font-size: 65px;
+        font-size: 1px;
         transition: 0.2s ease;
         font-weight: bold;
         height: auto; }
@@ -1738,7 +1757,7 @@ body {
         -webkit-user-select: none;
         -o-user-select: none;
         /* find me width: 750px; */
-        width: 350px;
+        width: 400px;
         flex-wrap: wrap;
         /* max-width: 100%; */ }
 
@@ -1750,13 +1769,13 @@ body {
             transform: translateY(0) !important; } }
         @media only screen and (max-width: 750px) {
           .title-container .inner-container .title-container .title-menu {
-            width: 350px; } }
+            width: 400px; } }
         @media only screen and (max-width: 650px) {
           .title-container .inner-container .title-container .title-menu {
-            width: 350px; } }
+            width: 400px; } }
         @media only screen and (max-width: 500px) {
           .title-container .inner-container .title-container .title-menu {
-            width: 230px; } }
+            width: 165px; } }
         @media only screen and (max-width: 380px) {
           .title-container .inner-container .title-container .title-menu {
             width: 165px; } }
@@ -1833,30 +1852,33 @@ body {
               background: white !important; }
 
 
+
 .title-container .inner-container .title-container .title-menu .btn-menu.c1 {
-  border-color: #4080F0 !important;
-  color: #4080F0 !important; }
-.title-container .inner-container .title-container .title-menu .btn-menu.c1:hover, .title-container .inner-container .title-container .title-menu .btn-menu.red:active, .title-container .inner-container .title-container .title-menu .btn-menu.red:focus {
-  background: #4080F0 !important;
+  background: #45acf3 !important;
+  border-color: #45acf3 !important;
+  color: white !important; }
+.title-container .inner-container .title-container .title-menu .btn-menu.c1:hover {
+  border-color: white !important;
   color: white !important; }
 
 .title-container .inner-container .title-container .title-menu .btn-menu.c2 {
   border-color: #3090D0 !important;
   color: #3090D0 !important; }
-.title-container .inner-container .title-container .title-menu .btn-menu.c2:hover, .title-container .inner-container .title-container .title-menu .btn-menu.red:active, .title-container .inner-container .title-container .title-menu .btn-menu.red:focus {
+.title-container .inner-container .title-container .title-menu .btn-menu.c2:hover {
   background: #3090D0 !important;
   color: white !important; }
 
 .title-container .inner-container .title-container .title-menu .btn-menu.c3 {
   border-color: #10A0B0 !important;
   color: #10A0B0 !important; }
-.title-container .inner-container .title-container .title-menu .btn-menu.c3:hover, .title-container .inner-container .title-container .title-menu .btn-menu.red:active, .title-container .inner-container .title-container .title-menu .btn-menu.red:focus {
+.title-container .inner-container .title-container .title-menu .btn-menu.c3:hover {
   background: #10A0B0 !important;
   color: white !important; }
 
 .title-container .inner-container .title-container .title-menu .btn-menu.c4 {
-  border-color: #00B090 !important;
-  color: #00B090 !important; }
-.title-container .inner-container .title-container .title-menu .btn-menu.c4:hover, .title-container .inner-container .title-container .title-menu .btn-menu.red:active, .title-container .inner-container .title-container .title-menu .btn-menu.red:focus {
-  background: #00B090 !important;
+  background-color: #ff726d !important;
+  border-color: #ff726d !important;
+  color: white !important; }
+.title-container .inner-container .title-container .title-menu .btn-menu.c4:hover {
+  border-color: white !important;
   color: white !important; }
