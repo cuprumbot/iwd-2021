@@ -1472,7 +1472,10 @@ body {
     transform: translateX(-85px);
     transition: 0.3s ease;
     color: #1a73e8;
-    background: white; }
+    background: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #1a73e8; }
     .back-container .btn-back:hover, .back-container .btn-back:active, .back-container .btn-back:focus {
       transform: scale(1.2) !important;
       color: #1a73e8; }
@@ -1696,26 +1699,28 @@ body {
         font-weight: bold;
         height: auto; }
         .title-container .inner-container .title-container .title .innovation-logo {
-          width: 800px;
+          width: 730px;
           height: auto;
           opacity: 1;
           transition: 0.5s ease; }
 
+          /* find me imagen principal */
+
           @media only screen and (max-width: 6000px) and (max-height: 900px) {
             .title-container .inner-container .title-container .title .innovation-logo {
-              width: 730px; } }
+              width: 650px; } }
           @media only screen and (max-width: 6000px) and (max-height: 800px) {
             .title-container .inner-container .title-container .title .innovation-logo {
-              width: 630px; } }
+              width: 550px; } }
           @media only screen and (max-width: 6000px) and (max-height: 700px) {
             .title-container .inner-container .title-container .title .innovation-logo {
-              width: 530px; } }
+              width: 470px; } }
           @media only screen and (max-width: 6000px) and (max-height: 600px) {
             .title-container .inner-container .title-container .title .innovation-logo {
-              width: 330px; } }
+              width: 320px; } }
           @media only screen and (max-width: 6000px) and (max-height: 400px) {
             .title-container .inner-container .title-container .title .innovation-logo {
-              width: 200px; } }
+              width: 250px; } }
 
 /*
           @media only screen and (max-width: 880px) and (max-height: 900px) {
@@ -1757,7 +1762,7 @@ body {
         -webkit-user-select: none;
         -o-user-select: none;
         /* find me width: 750px; */
-        width: 400px;
+        width: 500px;
         flex-wrap: wrap;
         /* max-width: 100%; */ }
 
