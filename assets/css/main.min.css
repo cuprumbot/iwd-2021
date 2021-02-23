@@ -1882,3 +1882,7 @@ body {
 .title-container .inner-container .title-container .title-menu .btn-menu.c4:hover {
   border-color: white !important;
   color: white !important; }
+
+.dynamic-information #mc_embed_signup {
+  color: black;
+}
