@@ -920,11 +920,11 @@ nav {
       margin-right: 20px;
       padding: 5px 10px;
       border-radius: 18px;
-      color: #4285f4; }
+      color: white }
       .events-container .day-selection .day-selector.selected {
         cursor: default;
-        background: #4285f4;
-        color: white; }
+        background: #AECBFA;
+        color: black; }
   .events-container .time-selection {
     margin: 0 22px;
     display: flex;
@@ -973,7 +973,7 @@ nav {
       display: flex;
       flex-direction: column;
       align-items: center;
-      color: gray;
+      color: white;
       margin: 0 16px 0 22px; }
       .events-container .event-card .event-time .time {
         font-size: 15px; }
@@ -1314,6 +1314,9 @@ nav {
   padding: 5px 10px !important;
   margin: 0 22px !important;
   background: #AECBFA; }
+.dynamic-information .section-body .agenda-container p {
+  color: black;
+}
 
 .agenda-container .other {
   padding: 6px 6px 6px 6px !important;
@@ -1721,31 +1724,16 @@ body {
             .title-container .inner-container .title-container .title .innovation-logo {
               width: 250px; } }
 
-/*
-          @media only screen and (max-width: 880px) and (max-height: 900px) {
-            .title-container .inner-container .title-container .title .innovation-logo {
-              width: 600px; } }
-          @media only screen and (max-width: 880px) and (max-height: 790px) {
+/* find me logo principal */
+          @media only screen and (max-width: 640px) {
             .title-container .inner-container .title-container .title .innovation-logo {
               width: 500px; } }
-          @media only screen and (max-width: 880px) and (max-height: 690px) {
+          @media only screen and (max-width: 500px) {
+            .title-container .inner-container .title-container .title .innovation-logo {
+              width: 450px; } }
+          @media only screen and (max-width: 360px) {
             .title-container .inner-container .title-container .title .innovation-logo {
               width: 400px; } }
-          @media only screen and (max-width: 880px) and (max-height: 590px) {
-            .title-container .inner-container .title-container .title .innovation-logo {
-              width: 300px; } }
-          @media only screen and (max-width: 880px) and (max-height: 390px) {
-            .title-container .inner-container .title-container .title .innovation-logo {
-              width: 200px; } }
-*/
-
-/* find me logo principal */
-          @media only screen and (max-width: 650px) {
-            .title-container .inner-container .title-container .title .innovation-logo {
-              width: 300px; } }
-          @media only screen and (max-width: 380px) {
-            .title-container .inner-container .title-container .title .innovation-logo {
-              width: 250px; } }
       .title-container .inner-container .title-container .date {
         color: black;
         margin-bottom: 20px;
@@ -1774,16 +1762,16 @@ body {
             transform: translateY(0) !important; } }
         @media only screen and (max-width: 750px) {
           .title-container .inner-container .title-container .title-menu {
-            width: 400px; } }
+            width: 500px; } }
         @media only screen and (max-width: 650px) {
           .title-container .inner-container .title-container .title-menu {
-            width: 400px; } }
+            width: 500px; } }
         @media only screen and (max-width: 500px) {
           .title-container .inner-container .title-container .title-menu {
-            width: 165px; } }
+            width: 400px; } }
         @media only screen and (max-width: 380px) {
           .title-container .inner-container .title-container .title-menu {
-            width: 165px; } }
+            width: 300px; } }
         .title-container .inner-container .title-container .title-menu .btn-menu {
           /* padding: 6px 12px; */
           /* find me */
@@ -1802,11 +1790,11 @@ body {
             border-color: #1a73e8; }
           @media only screen and (max-width: 650px) {
             .title-container .inner-container .title-container .title-menu .btn-menu {
-              font-size: 12px; } }
+              font-size: 14px; } }
           @media only screen and (max-width: 500px) {
             .title-container .inner-container .title-container .title-menu .btn-menu {
-              font-size: 11px;
-              padding: 5px 10px; } }
+              font-size: 13px;
+              padding: 5px 15px; } }
           .title-container .inner-container .title-container .title-menu .btn-menu.gray {
             border-color: gray !important;
             color: gray !important; }

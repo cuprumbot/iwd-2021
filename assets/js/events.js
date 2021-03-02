@@ -1,234 +1,102 @@
 var events = [
 
-	/* Viernes 16:00 */
+	/* Viernes 9:00 */
 	{
-		name: 'Tips para crecer profesionalmente. Rápido.',
+		name: 'Bienvenida',
 		description: '',
-		speaker: 'Mayra Rodríguez',
-		day: '13',
-		time: '16:00',
-		place: 'Salón 401 - UG',
+		speaker: 'Staff',
+		day: '5',
+		time: '09:00',
+		place: '',
 		subjects: [],
 		tba: '0'
 	},
+	/* Viernes 9:10 */
 	{
-		name: 'Google Apps Script',
+		name: 'Las otras aplicaciones de la Ingeniería',
 		description: '',
-		speaker: 'Katherine Chauca',
-		day: '13',
-		time: '16:00',
-		place: 'Salón 511 - UG',
+		speaker: 'Andrea Lara',
+		day: '5',
+		time: '09:10',
+		place: '',
 		subjects: [],
 		tba: '0'
 	},
-
-	/* Viernes 16:25 */
 	{
-		name: 'Haz un pívot en tu carrera profesional hacia la tecnología',
+		name: 'TensorFlow Lite para el mundo IOT',
 		description: '',
-		speaker: 'Isis García',
-		day: '13',
-		time: '16:25',
-		place: 'Salón 401 - UG',
+		speaker: 'Lesly Zerna',
+		day: '5',
+		time: '09:10',
+		place: '',
 		subjects: [],
 		tba: '0'
 	},
+	/* Viernes 9:40 */
 	{
-		name: 'El arte de no ser odiada',
-		description: 'Cómo sobrevivir en el mundo de la producción siendo mujer (Procedimientos, prótocolo en set, jerarquías y ejecución)',
-		speaker: 'Gabriela Grajeda Girón',
-		day: '13',
-		time: '16:25',
-		place: 'Salón 511 - UG',
-		subjects: [],
-		tba: '0'
-	},
-
-	/* Viernes 16:50 */
-	{
-		name: 'El rol del storytelling en el marketing de contenidos como herramienta para mujeres emprendedoras',
-		description: 'Contar historias nos hace poderosas, nos ayuda a construir comunidad y redes sororas, pero también nos sirve como herramienta para potenciar la promoción de nuestros emprendimientos.',
-		speaker: 'Ivette González Salazar',
-		day: '13',
-		time: '16:50',
-		place: 'Salón 401 - UG',
-		subjects: [],
-		tba: '0'
-	},
-	{
-		name: 'Mi video con calidad profesional desde el móvil y con telepromter BIGVU',
-		description: '¿Tu trabajo implica la creación de videos? Hazlo con calidad profesional y estética. Utiliza recursos como el telepromter BIGVU para que ofrezcas una imagen impecable.',
-		speaker: 'Sandra Escobar',
-		day: '13',
-		time: '16:50',
-		place: 'Salón 511 - UG',
-		subjects: [],
-		tba: '0'
-	},
-
-	/* Viernes 17:15 */
-	{
-		name: 'Empoderamiento de las mujeres en la energía solar',
-		description: 'Para mi es importante que mas mujeres se atrevan a liderar grandes proyectos en mi area.',
-		speaker: 'Beverly Morales',
-		day: '13',
-		time: '17:15',
-		place: 'Salón 401 - UG',
-		subjects: [],
-		tba: '0'
-	},
-	{
-		name: 'La inclusión de la mujer en la profesión de ingeniería',
+		name: 'Liderazgo colectivo para crear y emprender',
 		description: '',
-		speaker: 'Fátima Girón',
-		day: '13',
-		time: '17:15',
-		place: 'Salón 511 - UG',
-		subjects: [],
-		tba: '0'
-	},
-
-	/* Viernes 17:35 */
-	{
-		name: 'This is UX',
-		description: 'Skills claves, herramientas, procesos y jargon.',
-		speaker: 'María Olga Samperio',
-		day: '13',
-		time: '17:35',
-		place: 'Salón 401 - UG',
+		speaker: 'Lourdes Lopez',
+		day: '5',
+		time: '09:40',
+		place: '',
 		subjects: [],
 		tba: '0'
 	},
 	{
-		name: '¿Arte o diseño? No, comunicación',
-		description: 'El arte contemporáneo, lo conceptual, el objeto, la tecnología, la fotografía, la producción audiovisual, el diseño, incluso el periodismo. Tal vez a veces no se trata de "no entiendo el arte" sino de "no hablo este lenguaje".',
+		name: 'El papel de la mujer en el uso de sistemas de información geográfica y sensores remotos; un mundo controlado por el género opuesto',
+		description: '',
+		speaker: 'Sara Catalán',
+		day: '5',
+		time: '09:40',
+		place: '',
+		subjects: [],
+		tba: '0'
+	},
+	/* Viernes 10:10 */
+	{
+		name: 'Ediciones de artista y humor: Una manera de democratizar el arte',
+		description: '',
 		speaker: 'Nora Pérez',
-		day: '13',
-		time: '17:35',
-		place: 'Salón 511 - UG',
+		day: '5',
+		time: '10:10',
+		place: '',
 		subjects: [],
 		tba: '0'
 	},
 	{
-		name: 'Transformación digital',
-		description: 'Por medio de la transformacion digital  mejoramos la productividad, la colaboración y la gestión inteligente de la información para la toma de decisiones estratégicas.',
-		speaker: 'Bessy Chan',
-		day: '13',
-		time: '17:35',
-		place: 'Salón AC07 - UG',
+		name: 'Importancia de la mujer en carreras STEM',
+		description: '',
+		speaker: 'Victoria Chinchilla',
+		day: '5',
+		time: '10:10',
+		place: '',
+		subjects: [],
+		tba: '0'
+	},
+	{
+		name: 'Break',
+		description: '',
+		speaker: '',
+		day: '5',
+		time: '10:40',
+		place: '',
+		subjects: [],
+		tba: '0'
+	},
+	/* Viernes 10:50 */
+	{
+		name: 'Content Marketing 2021',
+		description: '',
+		speaker: 'Andrea Cabrera',
+		day: '5',
+		time: '10:50',
+		place: '',
 		subjects: [],
 		tba: '0'
 	},
 
-	/* Viernes 17:50 */
-	{
-		name: 'Currículo en tecnología y experiencia en equipos de robótica',
-		description: 'Innovación del área de tecnología, actividades y aprendizaje en todos los niveles (Pre Primaria a Bachillerato).',
-		speaker: 'María Rebeca Mendizabal Rivera',
-		day: '13',
-		time: '17:50',
-		place: 'Salón 401 - UG',
-		subjects: [],
-		tba: '0'
-	},
-	{
-		name: 'Manual de supervivencia de un ilustrador',
-		description: 'Ejemplos de como exponerse en redes sociales de forma profesional, monetizar tu hobby sin que se vuelva una obligación y como aplicar a fanzines.',
-		speaker: 'Holly Milián',
-		day: '13',
-		time: '17:50',
-		place: 'Salón 511 - UG',
-		subjects: [],
-		tba: '0'
-	},
-	{
-		name: 'Emprendiendo mi vida nueva',
-		description: 'Cómo el utilizando los únicos recursos que tenía, mi celular y el wifi logré emprender mi empresa.',
-		speaker: 'Grace Marie Galicia',
-		day: '13',
-		time: '17:50',
-		place: 'Salón 401 - UG',
-		subjects: [],
-		tba: '0'
-	},
-
-	/* Viernes 18:05 */
-	/* TO DO: staff Irma Carrillo */
-	{
-		name: 'Rompiendo barreras: Emprendiendo en "un mundo de hombres"',
-		description: '',
-		speaker: 'Irma Carrillo',
-		day: '13',
-		time: '18:05',
-		place: 'Salón 401 - UG',
-		subjects: [],
-		tba: '0'
-	},
-	{
-		name: 'Equilibrio de empresaria, mujer y otros problemas',
-		description: 'Soy arquitecta fundadora de Interni Arquitectos. En un país donde la arquitectura está hecha para hombres, quiero contar mi historia personal.',
-		speaker: 'Regina del Carmen Davila Andrade',
-		day: '13',
-		time: '18:05',
-		place: 'Salón 511 - UG',
-		subjects: [],
-		tba: '0'
-	},
-	{
-		name: '¿Transformando qué? Iniciando el camino hacia la transformación digital',
-		description: '',
-		speaker: 'María Fernanda Castellanos',
-		day: '13',
-		time: '18:05',
-		place: 'Salón AC07 - UG',
-		subjects: [],
-		tba: '0'
-	},
-
-	/* Viernes 18:25 */
-	{
-		name: 'La importancia del diseño y el contenido digital',
-		description: 'El diseño gráfico es muy importante para la creación de contenido actual y para poder comunicar correctamente debemos tomar en cuenta ciertos factores.',
-		speaker: 'Alma Peraza',
-		day: '13',
-		time: '18:25',
-		place: 'Salón 511 - UG',
-		subjects: [],
-		tba: '0'
-	},
-	/* TO DO: profile Evelyn Donis */
-	{
-		name: 'Seguridad en la era de la transformación digital',
-		description: 'Dar a conocer las tendencias, herramientas y medidas de control utilizadas para detectar, prevenir y proteger ante ataques de cyberseguridad con la utilización de las nuevas tecnologías relacionadas con la transformación digital.',
-		speaker: 'Evelyn Donis',
-		day: '13',
-		time: '18:25',
-		place: 'Salón AC07 - UG',
-		subjects: [],
-		tba: '0'
-	},
-
-	/* Viernes 18:45 */
-	{
-		name: 'La historia de mi vida',
-		description: '',
-		speaker: 'Debbie Cohen',
-		day: '13',
-		time: '18:45',
-		place: 'Salón 401 - UG',
-		subjects: [],
-		tba: '0'
-	},
-	{
-		name: 'Importancia del intérprete',
-		description: '',
-		speaker: 'Benemérito Comité Pro Ciegos y Sordos de Guatemala',
-		day: '13',
-		time: '18:45',
-		place: 'Salón 511 - UG',
-		subjects: [],
-		tba: '0'
-	},
+	
 
 
 

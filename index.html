@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -220,16 +220,19 @@
         var html = "";
             html += '<span class="agenda-container">';
             html += '<span class="subtitle">';
-            html += 'Viernes 13 de marzo - Universidad Galileo';
+            html += 'Viernes 5 de marzo';
             html += '</span>';
             html += '<p>';
-            html += '16:00 a 20:00. Charlas, talleres y panel de cierre.';
+            html += '09:00 a 13:00 - Colegios (comunicarse con evecruz@galileo.edu para participar)';
+            html += '</p>';
+            html += '<p>';
+            html += '18:00 a 21:00 - Público en general';
             html += '</p>';
             html += '<span class="subtitle">';
-            html += 'Sábado 14 de marzo - AGEXPORT';
+            html += 'Sábado 6 de marzo';
             html += '</span>';
             html += '<p>';
-            html += '8:00 a 13:00. Charlas y keynote de cierre.';
+            html += '08:00 a 13:30 - Público en general';
             html += '</p>';
 
             html += '<span class="other">';
@@ -269,10 +272,10 @@
         
         html += '<span class="day-selection">';
         html += '<span n="1" class="day-selector selected">';
-        html += 'Viernes 13'
+        html += 'Viernes 5'
         html += '</span>';
         html += '<span n="2" class="day-selector">';
-        html += 'Sábado 14'
+        html += 'Sábado 6'
         html += '</span>';
         html += '</span>';
         html += '<span class="time-selection">';
@@ -328,8 +331,8 @@
                     separationCount++;
                     html += (separationCount == 1)? `<span n="${separationCount}" class="day-card shown">` : `<span n="${separationCount}" class="day-card">`;
                     html += '<span class="event-date">';
-                    if(event.day == 13) html += 'Viernes, 13 de marzo';
-                    else if(event.day == 14) html += 'Sábado, 14 de marzo';
+                    if(event.day == 5) html += 'Viernes, 5 de marzo';
+                    else if(event.day == 6) html += 'Sábado, 6 de marzo';
                     html += '</span>';
                     oldDay = event.day;
                 }
@@ -337,6 +340,7 @@
                 html += (night)? '<span class="event-card night">' : '<span class="event-card shown">';
 
                 var speaker;
+                /*
                 var finded = false;
                 for(var i = 0; i < staff.length; i++){
                     //console.log(event.speaker);
@@ -346,6 +350,8 @@
                         break;
                     }
                 }
+                */
+                finded = true;
                 
                 html += (night)? '<span class="event-time night">' : '<span class="event-time">';
                 html += '<span class="time">';
@@ -363,9 +369,9 @@
                 html += event.name;
                 html += '</span>';
                 html += '<span class="subjects-container">';
-                html += '<span class="event-ubication"><i class="fas fa-map-marker"></i>';
-                html += event.place;
-                html += '</span>';
+                //html += '<span class="event-ubication"><i class="fas fa-map-marker"></i>';
+                //html += event.place;
+                //html += '</span>';
                 event.subjects.forEach((subject)=>{
                     html += '<span class="event-subject">';
                     html += (subjects[subject] == null)?  '<i style="color: gray;" class="fas fa-circle"></i>' : `<i style="color: #${subjects[subject]};" class="fas fa-circle"></i>`;
@@ -383,11 +389,12 @@
                 
                 if(finded){
                     html += '<span class="event-speaker">';
-                    html += '<span class="staff-image">';
-                    html += (speaker.image == null)? '' : `<img class="img" img-path="assets/img/${speaker.image}" src="assets/img/${speaker.image}">`;
-                    html += '</span>';
+                    //html += '<span class="staff-image">';
+                    //html += (speaker.image == null)? '' : `<img class="img" img-path="assets/img/${speaker.image}" src="assets/img/${speaker.image}">`;
+                    //html += '</span>';
                     html += '<span class="staff-name">';
-                    html += speaker.name;
+                    //html += speaker.name;
+                    html += event.speaker;
                     html += '</span>';
                     html += '</span>';
                 }
