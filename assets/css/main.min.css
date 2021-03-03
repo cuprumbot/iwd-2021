@@ -795,9 +795,15 @@ nav {
       .staff-container .staff-card .staff-name .staff-flag {
         display: flex;
         align-items: center;
-        margin-right: 6px; }
+        margin-right: 6px; 
+        border-style: solid;
+        border-width: 1px;
+        border-color: white;
+        border-radius: 8px;}
         .staff-container .staff-card .staff-name .staff-flag img {
           width: 16px; }
+
+        
     .staff-container .staff-card .staff-company {
       color: gray;
       z-index: 1; }
@@ -1030,10 +1036,25 @@ nav {
             position: absolute; }
         .events-container .event-card .event-information .event-speaker .staff-name {
           display: flex;
-          flex-direction: column; }
+          flex-direction: row;
+      justify-content: center;
+      z-index: 1; }
           .events-container .event-card .event-information .event-speaker .staff-name .staff-expand {
             color: #4285f4;
             font-weight: bold; }
+
+           .events-container .event-card .event-information .event-speaker .staff-name .staff-flag {
+        /*display: flex;*/
+        align-items: center;
+        margin-right: 6px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: white;
+        border-radius: 8px;
+        height: 16px; }
+        .events-container .event-card .event-information .event-speaker .staff-name .staff-flag img {
+          width: 16px;
+          height: 16px; }
       @media only screen and (max-width: 650px) {
         .events-container .event-card .event-information {
           font-size: 12px; } }
@@ -1753,7 +1774,7 @@ body {
         -webkit-user-select: none;
         -o-user-select: none;
         /* find me width: 750px; */
-        width: 500px;
+        width: 780px;
         flex-wrap: wrap;
         margin-top: 10px;
         /* max-width: 100%; */ }

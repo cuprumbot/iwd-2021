@@ -80,7 +80,7 @@ var staff = [
 		name: 'Women Who Code',
 		short: '',
 		information: '',
-		image: 'default.png',
+		image: 'wwc.png',
 		nationality: 'guatemala'
 	}
 	/*

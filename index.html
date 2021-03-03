@@ -59,9 +59,9 @@
 
                 <span class="title-menu">
                     <a id="home-access" class="btn-menu c1">Más información</a>
-                    <a id="staff-access" class="btn-menu c2">Conferencistas</a>
+                    <a id="staff-access" class="btn-menu c3">Conferencistas</a>
                     <a id="agenda-access" class="btn-menu c3">Agenda</a>
-                    <a id="register-access" class="btn-menu c2">Registrate</a>
+                    <a id="register-access" class="btn-menu c3">Registrate</a>
                     <a id="conduct-access" class="btn-menu c4">Código de Conducta</a>
                     
                 </span>
@@ -86,12 +86,7 @@
         </span> -->
     </span>
 
-<!--
-    <span id="dynamic-information-conduct" class="dynamic-information-conduct">
-        <span class="section-body">          
-        </span>
-    </span>
---> 
+
 
     <span id="galileo-logo" class="galileo-logo">
         
@@ -282,14 +277,12 @@
 
 
         /* Day/Night */
-        /*
         html += '<span n="1" class="time-selector selected">';
         html += '<i style="font-size: 20px;" class="far fa-sun"></i> Día'
         html += '</span>';
         html += '<span n="2" class="time-selector">';
         html += '<i style="font-size: 18px;" class="far fa-moon"></i> Noche'
         html += '</span>';
-        */
 
         html += '</span>';
         
@@ -299,14 +292,13 @@
                 if(hour >= 12){
                     ap = 'PM';
                     /* Day/Night */
-                    /*
+                    
                     if(hour >= 14){
                         night = true;
                     }else{
                         night = false;
                     }
-                    */
-                    night = false;
+                    
                     hour = (hour > 12)? hour - 12 : hour;
                 }else{
                     ap = 'AM';
@@ -369,9 +361,9 @@
                 html += event.name;
                 html += '</span>';
                 html += '<span class="subjects-container">';
-                //html += '<span class="event-ubication"><i class="fas fa-map-marker"></i>';
-                //html += event.place;
-                //html += '</span>';
+                html += '<span class="event-ubication"><i class="fas fa-map-marker"></i>';
+                html += event.place;
+                html += '</span>';
                 event.subjects.forEach((subject)=>{
                     html += '<span class="event-subject">';
                     html += (subjects[subject] == null)?  '<i style="color: gray;" class="fas fa-circle"></i>' : `<i style="color: #${subjects[subject]};" class="fas fa-circle"></i>`;
@@ -392,7 +384,8 @@
                     html += '<span class="staff-image">';
                     html += (speaker.image == null)? '' : `<img class="img" img-path="assets/img/conf/${speaker.image}" src="assets/img/conf/${speaker.image}">`;
                     html += '</span>';
-                    html += '<span class="staff-name">';
+                    html += '<span class="staff-name">';    /* find me staff */
+                    html += `<span class="staff-flag"><img src="assets/img/paises/${speaker.nationality}.png"></span>`;
                     //html += speaker.name;
                     html += event.speaker;
                     html += '</span>';
@@ -461,7 +454,7 @@
             }
         });
 
-        if(config.day == '14') $('.day-selector').each((index, selector)=>{
+        if(config.day == '6') $('.day-selector').each((index, selector)=>{
             if(selector.getAttribute('n') == 2) selector.click();
         });
 
@@ -528,8 +521,8 @@
 
                 if(oldDay != event.day){
                     html += '<span class="event-date">';
-                    if(event.day == 13) html += 'Viernes, 13 de marzo';
-                    else if(event.day == 14) html += 'Sábado, 14 de marzo';
+                    if(event.day == 5) html += 'Viernes, 5 de marzo';
+                    else if(event.day == 6) html += 'Sábado, 6 de marzo';
                     html += '</span>';
                     oldDay = event.day;
                 }
