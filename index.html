@@ -59,8 +59,8 @@
 
                 <span class="title-menu">
                     <a id="home-access" class="btn-menu c1">Más información</a>
-                    <!-- <a id="staff-access" class="btn-menu c2">Conferencistas</a> -->
-                    <!-- <a id="agenda-access" class="btn-menu c3">Agenda</a> -->
+                    <a id="staff-access" class="btn-menu c2">Conferencistas</a>
+                    <a id="agenda-access" class="btn-menu c3">Agenda</a>
                     <a id="register-access" class="btn-menu c2">Registrate</a>
                     <a id="conduct-access" class="btn-menu c4">Código de Conducta</a>
                     
@@ -340,7 +340,7 @@
                 html += (night)? '<span class="event-card night">' : '<span class="event-card shown">';
 
                 var speaker;
-                /*
+                
                 var finded = false;
                 for(var i = 0; i < staff.length; i++){
                     //console.log(event.speaker);
@@ -350,8 +350,8 @@
                         break;
                     }
                 }
-                */
-                finded = true;
+                
+                //finded = true;
                 
                 html += (night)? '<span class="event-time night">' : '<span class="event-time">';
                 html += '<span class="time">';
@@ -389,9 +389,9 @@
                 
                 if(finded){
                     html += '<span class="event-speaker">';
-                    //html += '<span class="staff-image">';
-                    //html += (speaker.image == null)? '' : `<img class="img" img-path="assets/img/${speaker.image}" src="assets/img/${speaker.image}">`;
-                    //html += '</span>';
+                    html += '<span class="staff-image">';
+                    html += (speaker.image == null)? '' : `<img class="img" img-path="assets/img/conf/${speaker.image}" src="assets/img/conf/${speaker.image}">`;
+                    html += '</span>';
                     html += '<span class="staff-name">';
                     //html += speaker.name;
                     html += event.speaker;
@@ -508,10 +508,10 @@
         html += '</span>';
 
         html += '<span class="staff-name">';
-        html += `<span class="staff-flag"><img src="assets/img/${findedStaff.nationality}.png"></span>`;
+        html += `<span class="staff-flag"><img src="assets/img/paises/${findedStaff.nationality}.png"></span>`;
         html += name;
         html += '</span>';
-        html += `<span class="staff-company">${findedStaff.company}</span>`;
+        //html += `<span class="staff-company">${findedStaff.company}</span>`;
         html += `<span class="staff-information">${findedStaff.information}</span>`;
 
         html += '<span class="events-container">';
@@ -606,7 +606,7 @@
         orderStaff.forEach(element => {
             html += `<span class="staff-card ${element.job}">`;
             html += '<span class="staff-image">';
-            html += (element.image == null)? '' : `<img class="img" img-path="assets/img/${element.image}" src="">`;
+            html += (element.image == null)? '' : `<img class="img" img-path="assets/img/conf/${element.image}" src="">`;
             if(element.gde != null){
                 html += '<span class="gde-banner"><span class="img-container"><img src="assets/img/gde.png"></span></span>';
             }
@@ -615,12 +615,12 @@
             html += '</span>';
             html += '</span>';
             html += '<span class="staff-name">';
-            html += `<span class="staff-flag"><img src="assets/img/${element.nationality}.png"></span>`;
+            html += `<span class="staff-flag"><img src="assets/img/paises/${element.nationality}.png"></span>`;
             html += element.name;
             html += '</span>';
-            html += '<span class="staff-company">';
-            html += element.company;
-            html += '</span>';
+            //html += '<span class="staff-company">';
+            //html += element.company;
+            //html += '</span>';
             html += '<span class="staff-information">';
             html += '<p>';
             html += element.short;
