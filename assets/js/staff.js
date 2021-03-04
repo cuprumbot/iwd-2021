@@ -139,8 +139,6 @@ var staff = [
 		image: 'AlmaPeraza.jpg',
 		nationality: 'guatemala'
 	},
-
-	/* to do, info */
 	{
 		name: 'Andrea Rosal',
 		short: 'Empresaria e innovadora en el mercado de la belleza. Fundadora de la academia de maquillaje Andrea Paola Makeup School. Creadora de The Beauty Truck.',
@@ -225,102 +223,103 @@ var staff = [
 		image: 'AmandaRecinos.jpg',
 		nationality: 'guatemala'
 	},
+	/* continue */
 	{
 		name: 'Katherinne Herrera',
-		short: '',
-		information: '',
+		short: 'Apasionada por el espacio y la física. Participante en proyectos financiados por la NASA: "Simulated Micro-, Lunar and Martian gravity Microbial Research" y "Space Biofilms"',
+		information: 'Katherinne Herrera es estudiante de Bioquímica y Microbiología de la UVG. Descubrió su amor por el espacio como consecuencia de su amor a la física. Luego de esto, comenzó en la investigación de Microbiología espacial para un proyecto de curso en el 2017. A partir de ese año, organizó y participó en múltiples talleres de biología espacial y biotecnología. Realizó una pasantía en la agencia BioServe Space Technologies, donde formó parte de dos proyectos financiados por la NASA: "Simulated Micro-, Lunar and Martian gravity Microbial Research" y "Space Biofilms". Actualmente trabaja en su tesis, sobre Células planctónicas de Pseudomonas aeruginosa crecidas en la Estación Espacial Internacional.',
 		image: 'KatherinneHerrera.jpg',
 		nationality: 'guatemala'
 	},
 	{
 		name: 'Susana Roca Estrada',
-		short: '',
-		information: '',
+		short: 'Licenciada en Administración de Empresas. Emprendedora. Organizadora de El Primer Encuentro de Mujeres Ejecutivas y Empresas EEE2018, como otros proyectos y foros.',
+		information: '"Graduada de la Universidad Mariano Gálvez de Guatemala de Licenciada en Administración de Empresas, a lo largo de su vida personal y profesional ha desarrollado diferentes competencias que la convierten en una mujer con gran habilidad verbal y matemática, asertiva, muy sociable, con buena actitud y determinación, adaptable a diversas situaciones, con un alto grado de independencia y muy objetiva.\nSe caracteriza por ser muy emprendedora, con un estupendo servicio a personas y altamente creativa. Un alto servicio al cliente y habilidad para las Relaciones Públicas son parte de sus fortalezas profesionales.\nEn los últimos años se ha desarrollado como Consultora independiente lo que le ha permitido adquirir amplia experiencia en procesos administrativos; Mercadeo, Relaciones Públicas y Procesos de Gestión del Talento Humano, cómo selección y contratación, capacitación, evaluación.  Cuenta con más de 10 años de experiencia en procesos de Recursos Humanos.  Gerente de Comunicación para TENLOT de Guatemala y en los últimos 9 meses se desempeñó como Gerente de Comunicación y Marketing en Tiendas Mass Franquicias.\nHa sido editora en Jefe y Directora Ejecutiva de iMujer Magazine, la primera revista para mujeres en los negocios en la región desde donde se promueve el éxito que logran cada vez más mujeres en diferentes profesiones y empresas.  Actualmente\nHa impartido un sinnúmero de capacitaciones tanto en el Sector Público como Privado, así como asesorías y consultorías en diversas áreas, principalmente para empresarias de la pequeña y mediana empresa en el país y ha sido conferencista en varias oportunidades con diversidad temática.\nHa organizado y coordinado diversos eventos como Foros de Candidatos a Alcaldes y Diputados; El Primer Encuentro de Mujeres Ejecutivas y Empresas EEE2018; La primera y Segunda Cumbre de Compensaciones y Beneficios Laborales Guatemala, 2016 y 2017 respectivamente. Así como cursos, talleres y conferencias con variadas temáticas.',
 		image: 'default.png',
 		nationality: 'guatemala'
 	},
 	{
 		name: 'María Andrée Paiz',
-		short: '',
-		information: '',
+		short: 'Diseñadora Gráfica especializada en sistemas de Diseño e Interfaz de Usuario. Miembro del colectivo de Ilustración Científica de Guatemala y la Consejera Regional para SCBWI.',
+		information: 'Soy diseñadora gráfica especializada en sistemas de diseño e Interfaz de Usuario. Además de trabajar para una empresa internacional de tecnología financiera, soy parte del colectivo de Ilustración Científica de Guatemala y la Consejera Regional para SCBWI (la Sociedad de Escritores e Ilustradores de Libros Infantiles). Mi experiencia teatral me ha servido para mejorar mi carrera.',
 		image: 'MariaAndreePaiz.jpg',
 		nationality: 'guatemala'
 	},
 	{
 		name: 'Isis García',
-		short: '',
-		information: '',
+		short: 'Licenciada en Ciencias de la Comunicación. Analista de datos a nivel digital. Directora de Research e Insights en iLifebelt.',
+		information: 'Egresada de Ciencias de la Comunicación y ex-becaria del Departamento de Estado en el 2010. Cuento con más de 7 años de experiencia en el área de análisis de datos a nivel digital, he trabajado para marcas en el sector financiero y de telecomunicaciones, actualmente soy Directora de Research e Insights para la empresa iLifebelt.',
 		image: 'default.png',
 		nationality: 'mexico'
 	},
 	{
 		name: 'Meiling Ericelda Esteban García',
-		short: '',
-		information: '',
+		short: 'Apasionada por la Tecnología e Investigación Criminal.',
+		information: 'Me apasiona la tecnología y la investigación criminal.',
 		image: 'MeilingEsteban.jpg',
 		nationality: 'guatemala'
 	},
 	{
 		name: 'Rosa Delfina Sunum Orellana',
-		short: '',
-		information: '',
+		short: 'Licenciada en Biología, especialista en cambio climatico. Diseñadora de proyectos con enfoque clímatico.',
+		information: 'Soy Bióloga egresada de la Universidad de San Carlos de Guatemala (USAC). Actualmente estudiante de la Maestría en Estadística Aplicada de la Facultad de Ingeniería de la USAC. Trabajo como Especialista de Cambio Climático en el Instituto Nacional de Bosques (INAB).\nCuento con 5 años de experiencia en el diseño de proyectos con enfoque climático y en entrenamiento de personal técnico en cambio climático. Mi interés es la aplicación de Machine Learning y AI para la búsqueda de soluciones e inversiones inteligentes a la problemática del cambio climático.',
 		image: 'RosaSunum.jpg',
 		nationality: 'guatemala'
 	},
 	{
 		name: 'Maria Fernanda Montenegro Monterroso',
-		short: '',
-		information: '',
+		short: 'Ingeniera en Sistemas, Desarrolladora de Sotfware. Cofundaodra de GPD code dedidaca a Ingenieria de Software.',
+		information: 'Ingeniera en sistemas de profesion con experiencia en el area de desarrollo de software. Cofundadora de GPD code, empresa dedicada a la ingenieria de software. Esposa y madre feliz.',
 		image: 'MariaMontenegro.jpg',
 		nationality: 'guatemala'
 	},
 	{
 		name: 'María del Rosario Salazar Letona',
-		short: '',
-		information: '',
+		short: 'Licenciada en Diseño Gráfico, Creadora de contenido en redes sociales y activista por los derechos de las mujeres.',
+		information: '"María Salazar una diseñadora gráfica guatemalteca, feminista, que está comprometida con los derechos de las mujeres, los derechos sexuales y reproductivos, creadora de contenido desde sus redes sociales, con un contexto amigable y divertido.\nDiseñando desde su perspectiva y su realidad, creando así imágenes con mensajes fuertes.',
 		image: 'MariaSalazar.jpg',
 		nationality: 'guatemala'
 	},
 	{
 		name: 'Ana Cecilia Castillo',
-		short: '',
-		information: '',
+		short: 'Ingeniera en Sistemas, desarrolladora de Software. Co-Organizadora del GDG Guatemala y Embajadora de Women Techmakers.',
+		information: 'Ingeniera en Sistemas, desarrolladora de software ha desarrollado aplicaciones móviles por más de 8 años tanto para android como iOS actualmente trabaja desarrollando iOS en PayPal. Co-Organizadora del GDG Guatemala, Embajadora de Women Techmakers. Runner, Speaker y me encanta leer.',
 		image: 'AnaCastillo.jpg',
 		nationality: 'guatemala'
 	},
 	{
 		name: 'Gaby Futch',
-		short: '',
-		information: '',
+		short: 'Licenciada en Diseño Gráfico especialiada en Branding, UX+UI, y dirección de arte.',
+		information: 'Diseñadora gráfica especializada en branding, UX+UI, y dirección de arte. Para mí, el diseño debe ser centrado en el ser humano, ser experimental, funcionar de una manera bella y hacernos sentir algo.',
 		image: 'GabyFutch.jpg',
 		nationality: 'guatemala'
 	},
 	{
 		name: 'María Regina Zaghi Lara',
-		short: '',
-		information: '',
+		short: 'Licenciada en Biología con Maestria en Neurociencias.  Colaboradora en proyectos del Laboratorio de Comportamiento de Organismos, utilizando herramientas de análisis de datos, Inteligencia Artificial y análisis cognitivo.',
+		information: 'Estudié Biología en Guatemala, hice mi tesis en conservación de ranas y calidad del agua. Luego saqué un profesorado y trabajé de maestra en Guatemala e India. Saqué una maestría en Neurociencias en 2019 y ahora trabajo en mi doctorado en el mismo instituto de neurociencias en España. En mi maestría y trabajo actual he trabajado en el laboratorio de Comportamiento de Organismos utilizando herramientas de análisis de datos, Inteligencia Artificial y análisis cognitivo en proyectos de laboratorio y en el mundo real.',
 		image: 'MariaZaghi.jpg',
 		nationality: 'guatemala'
 	},
 	{
 		name: 'Alejandra María Cabrera Robles',
-		short: '',
-		information: '',
+		short: 'Licenciada en Trabajo Social y Gestora para la atención de la Primera infancia. Miembro de OWSD y Red Internacional de Promotores de los Objetivos de Desarrollo.',
+		information: 'Alejandra Cabrera es Trabajadora social y Gestora para la Atención de la Primera Infancia de la Universidad de San Carlos de Guatemala, actualmente cursa una especialización en Innovación y Tecnología Educativa en la Universidad Europea del Atlántico. Se ha desempeñado en el campo de los derechos humanos de la niñez, mujeres, y estudiantes. Ha impartido ponencias nacionales e internacionales, participado en programas de radio; y, escrito columnas académicas y culturales. Es miembro de La Organización de la Mujer Científica para el Mundo en Desarrollo -OWSD- de la UNESCO y de la Red Internacional de Promotores de los Objetivos de Desarrollo Sostenible.',
 		image: 'AndreaCabrera.jpg',
 		nationality: 'guatemala'
 	},
 	{
 		name: 'Mayra Yucely Beb Caal',
-		short: '',
-		information: '',
+		short: 'Ingeniera mecatrónica y Baccalaureatus in Scientiis. Mater Internacional sistemas mecatrónicos y micromecatrónicos Miembro y voluntaria del IEEE, SPIE y OSA.',
+		information: 'Mayra Yucely Beb Caal (Cobán, A. V. 1994) es candidata a Doctorado en control y automatización por la Universidad Bourgogne Franche-Comté y colabora en el equipo de Micro y Nano-robótica en el centro de investigaciones FEMTO-ST (Francia). Es ingeniera mecatrónica y Baccalaureatus in Scientiis por la universidad del Valle de Guatemala; además tiene un Mater Internacional sistemas mecatrónicos y micromecatrónicos por Nile University (Egipto), Universidad de Oviedo (España) y Ecole Nationale Supérieure de Mécanique et des Microtechniques (Francia). Es miembro y voluntaria del IEEE (Institute of Electrical and Electronics Engineers), OWSD (Organization for Women in Science for the Developing World), SPIE (Society of Photo-Optical Instrumentation Engineers) y OSA (The Optical Society).',
 		image: 'default.png',
 		nationality: 'francia'
 	},
 	{
 		name: 'Gabriela Asturias',
-		short: '',
-		information: 'GabrielaAsturias.jpg',
-		image: 'default.png',
+		short: 'Coordinadora del Programa de TV Infantil Enciendete y el Proyecto Conéctate Guate, impulsadora en la creación del Sistema ALMA para realizar consultas sobre COVID-19 y coordinar la respuesta del sistema de salud.',
+		information: 'A los 14 años empecé mi trayectoria como mujer científica bajo la mentoría de la Dra. Pamela Pennington de la Universidad del Valle de Guatemala, donde me enfoque en la enfermedad de Chagas. También tuve la oportunidad de trabajar con el neurocirujano, Dr. Enrique Azmitia, que me permitió explorar mi pasión por el cerebro. A los 18 años recibí una beca para poder estudiar Neurociencia en la Universidad de Duke. Ese año empecé a trabajar con el Dr. David Boyd del Instituto de Salud Global en una investigación sobre desnutrición crónica en Guatemala.\nJunto con el Dr. Boyd empezamos la Fundación Desarrolla Guatemala para la Educación y Salud en el 2015. En FUNDEGUA he tenido la oportunidad de entrenar a más de 15 mujeres profesionales para hacer investigación y trabajar en programas en pro del desarrollo del país. Desde el 2017 empecé el programa Enciéndete con la Dra. Nimmi Ramanujam que busca empoderar mujeres con ciencia, tecnología, ingeniería, arte y matemáticas, logrando llegar a 1,602 estudiantes guatemaltecas. En el 2020 coordiné la creación y lanzamiento del Programa de TV Infantil Enciéndete, en alianza con Sésamo, Jayro Bustamante, La Casa de la Producción, Gaby Moreno, Yahaira Tubac, y Fundación Guatemorfosis. Este programa salió al aire en el canal 3, 7, 11, y 13, y también se está diseminando a través del programa Aprendo en Casa del Ministerio de Educación. Es una producción 100% guatemalteca en el que buscamos integrar a niños de todo el país y de diferentes etnias, cuyo objetivo es crear un espacio conducido por niños y para niños que permita resolver dudas relacionadas a COVID-19.\nDentro de FUNDEGUA también lidere el proyecto Conéctate Guate, en colaboración con SESAN, que busca crear un mapa de datos abiertos sobre todas las organizaciones en Guatemala trabajando para reducir las tasas de desnutrición crónica. Esta iniciativa la seguimos impulsando cada año con SESAN. Desde el 2020 he liderado un grupo de médicos, antropólogos, e ingenieros en la creación del Sistema ALMA que busca apoyar a la población con sus consultas sobre COVID-19 y coordinar la respuesta del sistema de salud. Hemos tenido un enfoque de género en ALMA para empoderar a las mujeres para mejorar el acceso a servicios de salud. También he tenido la oportunidad de colaborar con diferentes científicos en diversas publicaciones sobre estudios hechos en Guatemala, enfocados en desnutrición crónica, empoderamiento de mujeres con ciencia, y salud mental.',
+		image: 'GabrielaAsturias.jpg',
 		nationality: 'guatemala'
 	},
 	{
@@ -346,9 +345,9 @@ var staff = [
 	},
 	{
 		name: 'María Isabel Fernández',
-		short: '',
-		information: '',
-		image: 'default.png',
+		short: 'Ingeniera Mecatrónica. Cuento con experiencia en el mantenimiento industrial y proyectos eléctricos y de automatización en plantas industriales. ',
+		information: 'Soy Ingeniería mecatrónica egresada de la Universidad del Valle de Guatemala. Cuento con experiencia en el mantenimiento industrial y proyectos eléctricos y de automatización en plantas industriales.\nActualmente trabajo como supervisora de mantenimiento industrial en Bayer.  Amante de la tecnología y fotografía.',
+		image: 'IsabelFernandez.png',
 		nationality: 'guatemala'
 	},
 	{
