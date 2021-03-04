@@ -171,9 +171,135 @@ var staff = [
 	},
 	{
 		name: 'Jeanny Chapeta',
-		short: '',
-		information: 'Escritora guatemalteca, nace en 1988. Ganadora del certamen “El Palabrerista” en 2016 por el cuento Claudia y los gatos, el cual fue traducido al inglés y publicado en el Rincón de traductores del Instituto Cervantes de la Universidad de Harvard . Ha recibido cuatro premios más a nivel universitario e interuniversitario. Hasta el momento ha publicado las novelas El año que Lucía dejó de soñar & ¿Volverás a soñar Lucía? y los libros de cuentos Historias incompletas & Casa de Silencios. También ha publicado en diversas revistas a nivel latinoamericano. Es profesora en Lengua y Literatura por la Universidad del Valle de Guatemala y actualmente trabaja en dos proyectos novelísticos que podrían estar disponibles a final del 2021.',
+		short: 'Escritora guatemalteca. Ganadora del certamen "El Palabrerista". Dos novelas y dos libros de cuentos publicados.',
+		information: 'Escritora guatemalteca, nace en 1988. Ganadora del certamen "El Palabrerista" en 2016 por el cuento Claudia y los gatos, el cual fue traducido al inglés y publicado en el Rincón de traductores del Instituto Cervantes de la Universidad de Harvard . Ha recibido cuatro premios más a nivel universitario e interuniversitario. Hasta el momento ha publicado las novelas El año que Lucía dejó de soñar & ¿Volverás a soñar Lucía? y los libros de cuentos Historias incompletas & Casa de Silencios. También ha publicado en diversas revistas a nivel latinoamericano. Es profesora en Lengua y Literatura por la Universidad del Valle de Guatemala y actualmente trabaja en dos proyectos novelísticos que podrían estar disponibles a final del 2021.',
 		image: 'JeannyChapeta.jpg',
+		nationality: 'guatemala'
+	},
+	{
+		name: 'Cristhy Avilene Zaso Solis',
+		short: '',
+		information: '',
+		image: 'default.png',
+		nationality: 'guatemala'
+	},
+	{
+		name: 'Valeria del Pilar Gaitan Vallejo',
+		short: '',
+		information: '',
+		image: 'default.png',
+		nationality: 'guatemala'
+	},
+	{
+		name: 'Bessy Maria Chan Arevalo',
+		short: '',
+		information: '',
+		image: 'default.png',
+		nationality: 'guatemala'
+	},
+	{
+		name: 'Silvia Elizabeth Recinos Medina',
+		short: '',
+		information: '',
+		image: 'default.png',
+		nationality: 'guatemala'
+	},
+	{
+		name: 'Marivi Briz',
+		short: '',
+		information: '',
+		image: 'default.png',
+		nationality: 'guatemala'
+	},
+	{
+		name: 'Andrea Josefina Hernández Guerra',
+		short: '',
+		information: '',
+		image: 'default.png',
+		nationality: 'guatemala'
+	},
+	{
+		name: 'Amanda Recinos',
+		short: '',
+		information: '',
+		image: 'default.png',
+		nationality: 'guatemala'
+	},
+	{
+		name: 'Katherine Herrera',
+		short: '',
+		information: '',
+		image: 'default.png',
+		nationality: 'guatemala'
+	},
+	{
+		name: 'Susana Roca Estrada',
+		short: '',
+		information: '',
+		image: 'default.png',
+		nationality: 'guatemala'
+	},
+	{
+		name: 'María Andrée Paiz',
+		short: '',
+		information: '',
+		image: 'default.png',
+		nationality: 'guatemala'
+	},
+	{
+		name: 'Isis García',
+		short: '',
+		information: '',
+		image: 'default.png',
+		nationality: 'guatemala'
+	},
+	{
+		name: 'Meiling Ericelda Esteban García',
+		short: '',
+		information: '',
+		image: 'default.png',
+		nationality: 'guatemala'
+	},
+	{
+		name: 'Rosa Delfina Sunum Orellana',
+		short: '',
+		information: '',
+		image: 'default.png',
+		nationality: 'guatemala'
+	},
+	{
+		name: 'Maria Fernanda Montenegro Monterroso',
+		short: '',
+		information: '',
+		image: 'default.png',
+		nationality: 'guatemala'
+	},
+	{
+		name: 'María del Rosario Salazar Letona',
+		short: '',
+		information: '',
+		image: 'default.png',
+		nationality: 'guatemala'
+	},
+	{
+		name: 'Ana Cecilia Castillo',
+		short: '',
+		information: '',
+		image: 'default.png',
+		nationality: 'guatemala'
+	},
+	{
+		name: 'Gaby Futch',
+		short: '',
+		information: '',
+		image: 'default.png',
+		nationality: 'guatemala'
+	},
+	{
+		name: 'María Regina Zaghi Lara',
+		short: '',
+		information: '',
+		image: 'default.png',
 		nationality: 'guatemala'
 	}
 
@@ -184,6 +310,6 @@ var staff = [
 		information: '',
 		image: 'default.png',
 		nationality: 'guatemala'
-	}
+	},
 	*/
 ];
