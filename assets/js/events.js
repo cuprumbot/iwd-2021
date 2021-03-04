@@ -163,7 +163,7 @@ var events = [
 	/* Viernes 6:10 */
 	{
 		name: 'Solidaridad como estilo de vida',
-		description: '',
+		description: 'Compartir historia de proyecto Abuelitos Heladeros, proyecto social que busca resguardar la vida de personas de la tercera edad en condiciones de pobreza extrema.',
 		speaker: 'Maria Isabel Grajeda Avila',
 		day: '5',
 		time: '18:10',
@@ -173,7 +173,7 @@ var events = [
 	},
 	{
 		name: 'Mi amigo el síndrome del impostor',
-		description: '',
+		description: '"¿Alguna vez has sentido que nada sabes? ¿Has lidiado con la constante sensación de no ser lo suficientemente buena en lo que haces o sientes que eres un fraude? Si tú respuesta ha sido sí, quizás conoces a mi amigo el Síndrome del impostor. En está charla exploraremos qué es exactamente este síndrome, cómo lidiar con este y porqué es tan común en mujeres."',
 		speaker: 'Claudia Andrea Maucaylli Campos',
 		day: '5',
 		time: '18:10',
@@ -183,7 +183,7 @@ var events = [
 	},
 	{
 		name: 'Te necesitamos, tienes lo que se necesita',
-		description: '',
+		description: 'Charla motivacional para mostrar las opciones para que las mujeres tenemos para desarrollarnos en el área tecnológica.  Principalmente se requiere decisión y entusiasmo.',
 		speaker: 'Nidia Giorgis',
 		day: '5',
 		time: '18:10',
@@ -195,7 +195,7 @@ var events = [
 	/* Viernes 6:40 */
 	{
 		name: 'Cloud Computing NO es sinónimo de Seguridad',
-		description: '',
+		description: 'Dará a conocer las principales Brechas de seguridad de Cloud Computing, así como las medidas y controles para prevenir, detectar y mitigar dichas brechas.',
 		speaker: 'Evelyn Alejandra Donis González',
 		day: '5',
 		time: '18:40',
@@ -205,7 +205,7 @@ var events = [
 	},
 	{
 		name: 'Telemedicina y Teleodontología, de la teoría a la práctica',
-		description: '',
+		description: 'Nuestro objetivo es hacer una revisión de los conceptos, historia, campos de aplicación y experiencias documentadas alrededor del mundo, consideraciones legales, así como plantear algunas aplicaciones y proyecciones futuras de la teleodontología.',
 		speaker: 'Ana Magaly López',
 		day: '5',
 		time: '18:40',
@@ -215,7 +215,7 @@ var events = [
 	},
 	{
 		name: 'Neurotransmisores del líder resonante',
-		description: '',
+		description: 'El aporte de la neurociencia para mejorar nuestras relaciones interpersonales, cómo me veo y siento yo y cómo me perciben los demás.',
 		speaker: 'Claudia Rosales de Abarca',
 		day: '5',
 		time: '18:40',
@@ -227,7 +227,7 @@ var events = [
 	/* Viernes 7:10 */
 	{
 		name: 'La universidad también es nuestra: Reflexiones sobre el acoso sexual',
-		description: '',
+		description: 'Desde la Red Interuniversitaria Seguras y Educadas, queremos cambiar esta situación, y convertir a las universidades de Guatemala en espacios seguros para todas/os. Junto a Ana Sáenz (USAC), Gabriela Morales (URL), Camila Lemus (UVG) y Maricarmen Maldonado (UFM), estaremos reflexionando sobre este tema. ',
 		speaker: 'Red Interuniversitaria Seguras y Educadas',
 		day: '5',
 		time: '19:10',
@@ -237,7 +237,7 @@ var events = [
 	},
 	{
 		name: 'Tensorflow Lite para el mundo IOT',
-		description: '',
+		description: 'Empezar a ponerle "inteligencia artificial" a las cosas que se conectan a internet. Esta charla es un tema introductorio a TensorFlow Lite y sus usos y beneficios para los microcontroladores.',
 		speaker: 'Lesly Zerna',
 		day: '5',
 		time: '19:10',
@@ -261,7 +261,7 @@ var events = [
 	/* Viernes 7:50 */
 	{
 		name: 'El impacto de Social Media Listening en la reputación de marca',
-		description: '',
+		description: 'Desde mi experiencia como analista de datos, estaré explicando las bases del Social Media Listening y cómo esta puede ser utilizada para mantener una reputación digital saludable.',
 		speaker: 'Jennifer Karina Garzona Morales',
 		day: '5',
 		time: '19:50',
@@ -271,7 +271,7 @@ var events = [
 	},
 	{
 		name: 'Redes personal y profesionales: ¿Cómo aumentar el impacto de tus contactos?',
-		description: '',
+		description: 'Aprende como integrar de forma efectiva tus redes personales y profesionales y cómo la interacción fuera de espacios laborales puede impulsar tu empresa o carrera.',
 		speaker: 'Andrea Mazariegos',
 		day: '5',
 		time: '19:50',
@@ -281,7 +281,7 @@ var events = [
 	},
 	{
 		name: 'Relaciones públicas ¿Hacer o no hacer?',
-		description: '',
+		description: 'Una breve descripción de las relaciones publicas aplicada a las empresas de tecnología y los startups, las redes sociales, una auto evaluación para entender estamos o no listos, ¿es o no es para nosotros? ¿cuál es el impacto para nuestros negocios? ¿how to get ready?',
 		speaker: 'Karen Acosta',
 		day: '5',
 		time: '19:50',
@@ -293,8 +293,8 @@ var events = [
 	/* Viernes 8:05 */
 	{
 		name: 'La importancia del amor y la empatía en la ciencia',
-		description: '',
-		speaker: 'Bárbara Isabela Escobar Anleu',
+		description: 'Quisiera compartir un poco de mi historia, mi amor por la naturaleza desde niña y lo que me ha movido a lo largo de mi vida profesional. Me gustaría evidenciar la importancia de los sentimientos en las decisiones que tomamos, recordar que aunque la ciencia es algo pragmático y lógico, es vital mantener la humanidad, el amor y la empatía. Abogo por una ciencia con amor y empatía, creo que con ello podemos construir un mundo mejor.',
+		speaker: 'Bárbara Escobar',
 		day: '5',
 		time: '20:05',
 		place: 'Track 1 (viernes)',
@@ -315,7 +315,7 @@ var events = [
 	},
 	{
 		name: 'La revolución del Ecommerce en tiempos de pandemia',
-		description: '',
+		description: 'Debido a la pandemia nos vimos obligados a cambiar nuestra mentalidad de compra/venta es por ello que debemos apoyarnos de la tecnología para que los negocios permanezcan vigentes.',
 		speaker: 'Alma Peraza',
 		day: '5',
 		time: '20:20',
@@ -350,7 +350,7 @@ var events = [
 	/* Sabado 8:10 */
 	{
 		name: 'Cuidados orales de la mujer en todas sus etapas',
-		description: '',
+		description: 'La mujer en cada etapa de la vida,  pasa por procesos que afectan la salud bucal, por lo que debe estar preparada para enfrentarlos, de manera que estos no le afecten y también pueda ayudar a su familia a evitarlos.',
 		speaker: 'Cristhy Avilene Zaso Solis',
 		day: '6',
 		time: '08:10',
@@ -360,7 +360,7 @@ var events = [
 	},
 	{
 		name: 'El futuro del diseño es inclusivo',
-		description: '',
+		description: '"El campo del diseño ha evolucionado enormemente; adoptamos nuevas herramientas y terminologías constantemente, tenemos nuevas formas de colaborar con los clientes, nuevas formas de trabajar con la tecnología y, de alguna manera, también, hemos creado nuevas formas de trabajar en torno a las necesidades humanas.',
 		speaker: 'Valeria del Pilar Gaitan Vallejo',
 		day: '6',
 		time: '08:10',
@@ -370,7 +370,7 @@ var events = [
 	},
 	{
 		name: 'Ciberseguridad, ¿cuáles serán los retos en 2021?',
-		description: '',
+		description: 'Se hará una breve introduccion concientizando numeros  y estadisticas de brechas de ataques en el 2020 y se explicará  cuales son los tipos de ataques mas comunes en el 2020 y para finalizar para que debemos estar preparados a nivel seguridad de datos e infraestructura en el 2021.',
 		speaker: 'Bessy Maria Chan Arévalo',
 		day: '6',
 		time: '08:10',
@@ -380,7 +380,7 @@ var events = [
 	},
 	{
 		name: 'Bases para el diseño UX/UI',
-		description: '',
+		description: 'Cómo realizar un diseño funcional y agradable al público.',
 		speaker: 'Silvia Elizabeth Recinos Medina',
 		day: '6',
 		time: '08:25',
@@ -389,3 +389,4 @@ var events = [
 		tba: '0'
 	}
 ];
+

@@ -18,7 +18,7 @@ var staff = [
 		short: 'Premiada por The Diana Award, fundadora de Dirección de Proyectos de Juventudes y Mujeres en la Fundación Oxlajuj N\'oj',
 		information: 'Guatemalteca de 25 años de edad premiada por The Diana Award, UK , 2020 y la Organización Mundial Democrática como Mujer Líder y Emprendedora Social 2019, graduada a sus 22 años de la Universidad Rafael Landívar de la Licenciatura Investigación Criminal y Forense, y Licenciatura de Sociología de la Universidad San Carlos de Guatemala, con una trayectoria en investigación social, violencias, mujeres indigenas y juventudes. Fundadora de Dirección de Proyectos de Juventudes y Mujeres en la Fundación Oxlajuj N\'oj. Ha dado ponencias presenciales en congresos internacionales España, México,Costa Rica, Salvador y Perú. Se ha especializado en Investigación Social y Prevención de Violencia Sexual en Facultad Latinoamericana de Ciencias Sociales (FLACSO), Estudios de las Mujeres y Género, Gestión de proyectos con enfoque de género, Innovación Politica y Seguridad Nacional. Andrea Lourdes es activista en diferentes organizaciones como Organización Juvenil Con Vos, Fundacion Oxlajuj N\'oj, Observatorio contra el Acoso Callejero y Jovénes Iberoamericanos. Embajadora de la ODM en Guatemala y miembro OSWD. Actualmente cursa su máster en Estudios de Género y Mujeres- GEMMA ERASMUS MUNDUS-.',
 		image: 'LourdesLopez.png',
-		nationality: 'guatemala'
+		nationality: 'espana'
 	},
 	{
 		name: 'Sara Catalán',
@@ -82,50 +82,104 @@ var staff = [
 		information: '',
 		image: 'wwc.png',
 		nationality: 'guatemala'
+	},
+
+
+
+
+	{
+		name: 'Evelyn Alejandra Donis González',
+		short: 'Ingeniera en Sistemas, enfocada en seguridad de informacion y seguridad informática.',
+		information: '',
+		image: 'EvelynDonis.jpg',
+		nationality: 'guatemala'
+	},
+	{
+		name: 'Ana Magaly López',
+		short: 'Odontodiatra, Coach en Salud, Conferencista. ',
+		information: '',
+		image: 'default.png',
+		nationality: 'guatemala'
+	},
+
+	/* to do, descripciones dos arriba, dos abajo */
+
+	{
+		name: 'Claudia Rosales de Abarca',
+		short: '',
+		information: '',
+		image: 'ClaudiaRosales.jpg',
+		nationality: 'guatemala'
+	},
+	{
+		name: 'Red Interuniversitaria Seguras y Educadas',
+		short: '',
+		information: '',
+		image: 'RISE.png',
+		nationality: 'guatemala'
+	},
+	{
+		name: 'Jennifer Karina Garzona Morales',
+		short: 'Licenciada en Ciencias de la Comunicación. Analista de datos a nivel digital. Directora de Research e Insights en iLifebelt.',
+		information: '',
+		image: 'default.png',
+		nationality: 'guatemala'
+	},
+	{
+		name: 'Andrea Mazariegos',
+		short: 'Ingeniera de profesión y constructora de ecosistemas de emprendimiento por pasión.',
+		information: '',
+		image: 'AndreaMazariegos.jpg',
+		nationality: 'guatemala'
+	},
+	{
+		name: 'Karen Acosta',
+		short: 'Más de 9 años de experiencia manejando la comunicación de empresas de Silicon Valley.',
+		information: 'Holds more than 14 years of experience in managing communications for brands in a broad set of industries including technology, construction, consumer goods, mining, manufacturing, and personal care.\nFor the past 9 years, Karen has specialized in managing the reputation of Silicon Valley companies whose target market in Latin America. She has also been responsible for the creation of a regional team for Out Of Box Consulting, consisting of members from countries such as Mexico, Colombia, Peru, Chile, and Argentina, in order to cover strategies and expansion plans of US and Latin America-based startups.\nKaren is passionate about entrepreneurship and technology.',
+		image: 'KarenAcosta.jpg',
+		nationality: 'guatemala'
+	},
+	{
+		name: 'Alma Peraza',
+		short: 'Licenciada en Comunicación y Diseño, involucrada el mundo digital de educación, farmaceutica y retail.',
+		information: '',
+		image: 'AlmaPeraza.jpg',
+		nationality: 'guatemala'
+	},
+
+	/* to do, info */
+	{
+		name: 'Andrea Rosales',
+		short: '',
+		information: '',
+		image: 'default.png',
+		nationality: 'guatemala'
+	},
+	{
+		name: 'Andrea Xitumul',
+		short: '',
+		information: '',
+		image: 'default.png',
+		nationality: 'guatemala'
+	},
+	{
+		name: 'Maria Isabel Grajeda Avila',
+		short: 'Licenciada en Administración de Empresas. Fundadora de Abuelitos Heladeros. Promotora del resguardo de salud y vida de comerciantes de la tercera edad.',
+		information: '',
+		image: 'default.png',
+		nationality: 'guatemala'
+	},
+
+	/* to do, descripcion */
+	{
+		name: 'Claudia Andrea Maucaylli Campos',
+		short: '',
+		information: '',
+		image: 'ClaudiaAndreaMaucaylli.jpg',
+		nationality: 'guatemala'
 	}
+
 	/*
-	{
-		name: '',
-		short: '',
-		information: '',
-		image: 'default.png',
-		nationality: 'guatemala'
-	},
-	{
-		name: '',
-		short: '',
-		information: '',
-		image: 'default.png',
-		nationality: 'guatemala'
-	},
-	{
-		name: '',
-		short: '',
-		information: '',
-		image: 'default.png',
-		nationality: 'guatemala'
-	},
-	{
-		name: '',
-		short: '',
-		information: '',
-		image: 'default.png',
-		nationality: 'guatemala'
-	},
-	{
-		name: '',
-		short: '',
-		information: '',
-		image: 'default.png',
-		nationality: 'guatemala'
-	},
-	{
-		name: '',
-		short: '',
-		information: '',
-		image: 'default.png',
-		nationality: 'guatemala'
-	},
 	{
 		name: '',
 		short: '',
