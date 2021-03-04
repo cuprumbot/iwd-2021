@@ -27,8 +27,6 @@
     <meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
     <meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
 
-    <script type="text/javascript" src="ghspa.js"></script>
-
     <!-- Imports -->
     <link rel="stylesheet" href="assets/css/main.min.css">
     <script src="assets/js/jquery.min.js" type="text/javascript"></script>
@@ -37,6 +35,8 @@
     <script src="assets/js/events.js" type="text/javascript"></script>
     <script src="assets/js/subjects.js" type="text/javascript"></script>
     <script src="assets/js/config.js" type="text/javascript"></script>
+
+    <script type="text/javascript" src="ghspa.js"></script>
    
     <title>IWD 2021</title>
 </head>
@@ -866,6 +866,7 @@
                 generateAgenda();
             } else if (hash == 'conferencistas' || hash == 'c') {
                 hideIndex();
+                console.log('staff');
                 generateStaff();
             } else if (hash == 'conducta' || hash == 'cc') {
                 hideIndex();
