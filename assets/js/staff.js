@@ -223,7 +223,6 @@ var staff = [
 		image: 'AmandaRecinos.jpg',
 		nationality: 'guatemala'
 	},
-	/* continue */
 	{
 		name: 'Katherinne Herrera',
 		short: 'Apasionada por el espacio y la física. Participante en proyectos financiados por la NASA: "Simulated Micro-, Lunar and Martian gravity Microbial Research" y "Space Biofilms"',
@@ -324,22 +323,22 @@ var staff = [
 	},
 	{
 		name: 'Bridgette Elisa Porras Barrios',
-		short: '',
-		information: '',
+		short: 'Licenciada en Nutrición, certificada en inteligencia emocional en salud y nutrición. Apasionada por la calidad de vida y alimentación.',
+		information: 'Mi nombre es Bridgette Porras y tengo 25 años. Soy nutricionista egresada de la Universidad Rafael Landívar certificada en inteligencia emocional en salud y nutrición y con especialización en introducción a la Nutrigenómica. Actualmente me dedico a dar consultas en nutrición. Me apasiona ayudar a las personas a mejorar su alimentación y por ende su salud.',
 		image: 'default.png',
 		nationality: 'guatemala'
 	},
 	{
 		name: 'Lucia Rosales',
-		short: '',
-		information: '',
+		short: 'Mujer pansexual, mestiza, transformista y nutricionista antidietas.',
+		information: 'Mujer pansexual, mestiza, transformista y nutricionista antidietas. Aprendiendo la compasión conmigo misma aplicada en el activismo que realizo trabajando con nutrición desde otra perspectiva.',
 		image: 'default.png',
 		nationality: 'guatemala'
 	},
 	{
 		name: 'Damaris Lucía Lucero Rosales',
-		short: '',
-		information: '',
+		short: 'Ingeniera en Sistemas y Ma. en Informatica, actualmente trabajando como Project Manager en Allied Global.',
+		information: 'Ingeniera en Sistemas y Ma. en Informatica, actualmente trabajando como Project Manager en Allied Global, me gusta trabajar en equipo y entender al equipo. Me considero una persona que se adapta al cambio y que de cada reto presentado gano experiencia.',
 		image: 'DamarisLucero.jpg',
 		nationality: 'guatemala'
 	},
@@ -352,37 +351,37 @@ var staff = [
 	},
 	{
 		name: 'Karla Marisol Pérez Romero',
-		short: '',
-		information: '',
+		short: 'Magister en Administración de Calidad e Ingeniera Industrial. Analista de proyectos y creadora de contenido virtual.',
+		information: 'Soy guatemalteca, ingeniera industrial y magister en administración de la calidad. Soy analista de proyectos y creadora de contenido digital para Instagram y YouTube. Me encanta poder aportar conocimiento, herramientas y asesoría para que cualquiera pueda cumplir sus objetivos.',
 		image: 'KarlaPerez.jpg',
 		nationality: 'guatemala'
 	},
 	{
 		name: 'Dayana Nina',
-		short: '',
-		information: '',
+		short: 'Ingeniera de Sistemas con MBA, FreeLancer y Docente Universitario de Pregrado. Activista por la inclusión de Mujeres en las áreas STEM.',
+		information: 'Ingeniera de Sistemas con MBA, FreeLancer y Docente Universitario de Pregrado, Speaker Nacional e Internacional en temas de Tecnología, Activista por la inclusión de Mujeres en las áreas Stem. Reconocida como una de las mujeres con influencia en tecnología por la AGETIC, MujeresTech a nivel Bolivia el 2019 y también como una TEN OUTSTANDING YOUNG PEOPLE el 2019 como una de los diez jóvenes más influyentes en la Ciudad de La Paz por la Junior Chamber Internacional(JCI). Womentech Ambassador 2020.',
 		image: 'DayanaNina.jpg',
 		nationality: 'bolivia'
 	},
 	{
 		name: 'Hilda Isabel Aguilar Figueroa',
-		short: '',
-		information: '',
+		short: 'Activista en proyectos para el desarrollo de la niñez. Educadora de Corazon. Madre y esposa entusiasta.',
+		information: 'Soy educadora de corazón. Soy madre, esposa, hija y hermana. Me apasiona la educación y me dedico a ello. He sido muy afortunada porque he trabajado siempre en lo que me gusta, por lo que no le llamo trabajo, sino pasión. Me encanta desarrollar proyectos en favor  de la niñez.',
 		image: 'HildaAguilar.jpg',
 		nationality: 'guatemala'
 	},
 	{
 		name: 'Angela Samantha Tepec González',
-		short: '',
-		information: '',
-		image: 'default.png',
+		short: 'Licenciada en la enseñanza de la Matemática y Física con distinción Cum Laude. Incursora en programación y administración de aplicaciones para Android.',
+		information: 'Desde 2015 soy Licenciada en la enseñanza de la Matemática y Física con distinción Cum Laude. Poseo experiencia como docente del área científica de nivel medio, tanto en básico como en diversificado y también en la formación de docentes en servicio. Además, me he desempeñado en el área de coordinación académica teniendo a mi cargo proyectos y gestión de personal. En los últimos años incursioné en el área de programación y administración de aplicaciones móviles para Android.',
+		image: 'SamanthaTepec.jpg',
 		nationality: 'guatemala'
 	},
 	{
 		name: 'Marian Villa',
-		short: '',
-		information: '',
-		image: 'MarianVilla.jpg',
+		short: 'Magister en Mercadeo. Asesora en UI|UX en Google Launchpad. Fundadora de PionerasDev y Directora y Co-Fundadora de EVERSOCIAL.',
+		information: 'Marian Villa es docente, diseñadora, comunicadora, desarrolladora y Magister en Mercadeo. Asesora en UI|UX en Google Launchpad y es miembro calificador de SXSW.\nCEO y co-fundadora de EVERSOCIAL, agencia digital.\nDirectora y co-fundadora de @pionerasdev, la Comunidad/ONG más grande de #WomenInTech en Colombia y ahora de la Spin-off WOMINT.',
+		image: 'MarianVilla.png',
 		nationality: 'colombia'
 	}
 
