@@ -167,7 +167,7 @@ var staff = [
 		short: 'Diseñadora por pasión. Interaction designer, Co-host y parte del equipo de Organización y Logística en Más Mujeres',
 		information: 'Me considero una diseñadora por pasión, una viajera de corazón y una aprendiz eterna.\nInteraction designer en UTP, co-host en UX Pills, UX designer freelancer, parte del equipo de Organización y Logística en Más Mujeres en UX Perú y facilitadora de talleres sobre diseño UX. Cuento con experiencia en los rubros de banca, educación, e-commerce y telecomunicaciones. Me encanta aprender y compartir sobre diversos temas en comunidad.',
 		image: 'ClaudiaAndreaMaucaylli.jpg',
-		nationality: 'guatemala'
+		nationality: 'peru'
 	},
 	{
 		name: 'Jeanny Chapeta',
@@ -209,7 +209,7 @@ var staff = [
 		short: '',
 		information: '',
 		image: 'MariaVirtudesBriz.jpg',
-		nationality: 'guatemala'
+		nationality: 'espana'
 	},
 	{
 		name: 'Andrea Josefina Hernández Guerra',
@@ -251,7 +251,7 @@ var staff = [
 		short: '',
 		information: '',
 		image: 'default.png',
-		nationality: 'guatemala'
+		nationality: 'Mexico'
 	},
 	{
 		name: 'Meiling Ericelda Esteban García',
@@ -314,7 +314,7 @@ var staff = [
 		short: '',
 		information: '',
 		image: 'default.png',
-		nationality: 'guatemala'
+		nationality: 'francia'
 	},
 	{
 		name: 'Gabriela Asturias',
@@ -363,7 +363,7 @@ var staff = [
 		short: '',
 		information: '',
 		image: 'DayanaNina.jpg',
-		nationality: 'guatemala'
+		nationality: 'bolivia'
 	},
 	{
 		name: 'Hilda Isabel Aguilar Figueroa',
@@ -384,7 +384,7 @@ var staff = [
 		short: '',
 		information: '',
 		image: 'MarianVilla.jpg',
-		nationality: 'guatemala'
+		nationality: 'colombia'
 	}
 
 	/*
