@@ -83,52 +83,45 @@ var staff = [
 		image: 'wwc.png',
 		nationality: 'guatemala'
 	},
-
-
-
-
 	{
 		name: 'Evelyn Alejandra Donis González',
 		short: 'Ingeniera en Sistemas, enfocada en seguridad de informacion y seguridad informática.',
-		information: '',
+		information: 'Ingeniera en Sistemas, cuento con más de 10 años de experiencia en seguridad de la información y seguridad informática, y en los últimos 4 años he adquirido conocimiento de Ciberseguridad a través de la realización de pruebas de seguridad en diferentes industrias de telecomunicaciones, financieras, manufactureras, retail, entre otras. También he apoyado en el asesoramiento e implementación de sistemas de gestión de seguridad de la información y Ciberseguridad y Gestión de Incidentes basados en las mejores prácticas como lo son Iso27001, ISO22301, ISO 27035, NIST y PCI-DSS, estas actividades me han permitido adquirir certificaciones internacionales ISO LA27001 e ISO LA22301.',
 		image: 'EvelynDonis.jpg',
 		nationality: 'guatemala'
 	},
 	{
 		name: 'Ana Magaly López',
-		short: 'Odontodiatra, Coach en Salud, Conferencista. ',
-		information: '',
+		short: 'Odontodiatra, Coach en Salud, Conferencista.',
+		information: 'Esposa, Madre de tres, Odontopediatra,  Coach en Salud.\nConferencista Nacional e Internacional.\nSiempre en búsqueda de aportar a mi país y comunidad.\nInquieta y estudiante eterna.',
 		image: 'default.png',
 		nationality: 'guatemala'
 	},
-
-	/* to do, descripciones dos arriba, dos abajo */
-
 	{
 		name: 'Claudia Rosales de Abarca',
-		short: '',
-		information: '',
+		short: 'Coordinadora de Maestria y Catedrática universitaria. Docente de corazon y tallerista. Cursando Doctorado en Psicología Educativa',
+		information: 'Soy docente de corazón y tallerista, me gusta enseñar a otras a empoderarse de sí mismas.  Trabajo como coordinadora de dos maestrías en la Universidad Rafael Landívar. Soy catedrática universitaria. Me gusta la jardinería, la música, hacer ejercicio en casa y meditar.\nMe gustan las horarias de terror y los libros de neurociencia.\nEstoy sacando un doctorado en Psicología educativa y será un gusto hablar de cómo funciona nuestro cerebro para liderar mejor a los equipos.',
 		image: 'ClaudiaRosales.jpg',
 		nationality: 'guatemala'
 	},
 	{
 		name: 'Red Interuniversitaria Seguras y Educadas',
-		short: '',
-		information: '',
+		short: 'Plataforma de cooperación interuniversitaria, iniciada en 2020. ',
+		information: 'Somos una plataforma de cooperación interuniversitaria, que busca articular y plantear propuestas para prevenir, sancionar y resarcir la violencia sexual dentro de las universidades del país. Nuestro trabajo, que inició en 2020, incluye investigación, educación y activismo feminista.',
 		image: 'RISE.png',
 		nationality: 'guatemala'
 	},
 	{
 		name: 'Jennifer Karina Garzona Morales',
 		short: 'Licenciada en Ciencias de la Comunicación. Analista de datos a nivel digital. Directora de Research e Insights en iLifebelt.',
-		information: '',
+		information: 'Egresada de Ciencias de la Comunicación y ex-becaria del Departamento de Estado en el 2010. Cuento con más de 7 años de experiencia en el área de análisis de datos a nivel digital, he trabajado para marcas en el sector financiero y de telecomunicaciones, actualmente soy Directora de Research e Insights para la empresa iLifebelt.',
 		image: 'default.png',
 		nationality: 'guatemala'
 	},
 	{
 		name: 'Andrea Mazariegos',
 		short: 'Ingeniera de profesión y constructora de ecosistemas de emprendimiento por pasión.',
-		information: '',
+		information: 'Ingeniera de profesión y constructora de ecosistemas de emprendimiento por pasión. Fascinada con la integración de mujeres en espacios de liderazgo y el impulso de empresas de alto crecimiento en el país.',
 		image: 'AndreaMazariegos.jpg',
 		nationality: 'guatemala'
 	},
@@ -142,7 +135,7 @@ var staff = [
 	{
 		name: 'Alma Peraza',
 		short: 'Licenciada en Comunicación y Diseño, involucrada el mundo digital de educación, farmaceutica y retail.',
-		information: '',
+		information: 'Soy licenciada en comunicación y diseño, actualmente cursando maestría en marketing digital, tengo más de 5 años de experiencia en el mundo digital para diferentes industrias desde educación, farmacéutica y retail.',
 		image: 'AlmaPeraza.jpg',
 		nationality: 'guatemala'
 	},
@@ -165,7 +158,7 @@ var staff = [
 	{
 		name: 'Maria Isabel Grajeda Avila',
 		short: 'Licenciada en Administración de Empresas. Fundadora de Abuelitos Heladeros. Promotora del resguardo de salud y vida de comerciantes de la tercera edad.',
-		information: '',
+		information: 'Guatemalteca Ilustre 2020.\nAdministradora de empresas con experiencia en finanzas.\nCreadora del proyecto Abuelitos Heladeros, que tiene como fin resguardar la salud y vida de un grupo de abuelitos vendedores de helados ambulantes cuyas ventas se vieron afectadas a raíz de la pandemia.\nSe logró proveerles de víveres, apoyo económico, una estufa, un ecofiltro, camas nuevas para llevar a sus casas y quedarse ahí sin tener que salir a trabajar.\nSe les brinda apoyo económico semanal, entrega de alimentos para ellos y sus familias, atención médica y tratamientos respectivos.\nAdicionalmente se mejoró la infraestructura del depósito donde ellos trabajan para que tengan un sitio cómodo y digno para descansar luego de sus largas jornadas.\nEn redes sociales se están vendiendo los helados con las comisiones de ellos para hacer autosostenible el proyecto. Además, de donaciones que se reciben de personas que se siguen sumando en un acto de amor al prójimo.',
 		image: 'default.png',
 		nationality: 'guatemala'
 	},
@@ -173,8 +166,8 @@ var staff = [
 	/* to do, descripcion */
 	{
 		name: 'Claudia Andrea Maucaylli Campos',
-		short: '',
-		information: '',
+		short: 'Diseñadora por pasión. Interaction designer, Co-host y parte del equipo de Organización y Logística en Más Mujeres',
+		information: 'Me considero una diseñadora por pasión, una viajera de corazón y una aprendiz eterna.\nInteraction designer en UTP, co-host en UX Pills, UX designer freelancer, parte del equipo de Organización y Logística en Más Mujeres en UX Perú y facilitadora de talleres sobre diseño UX. Cuento con experiencia en los rubros de banca, educación, e-commerce y telecomunicaciones. Me encanta aprender y compartir sobre diversos temas en comunidad.',
 		image: 'ClaudiaAndreaMaucaylli.jpg',
 		nationality: 'guatemala'
 	}
