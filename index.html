@@ -600,6 +600,7 @@
     }
 
     function generateStaff(){
+        console.log("generating staff");
         var element = $('#dynamic-information');
         var html = '';
 
@@ -656,6 +657,7 @@
             var gde = element.find('.gde-banner');
             generateExpandedStaff(image_path, name, gde);
         });
+        console.log("staff was generated");
     }
 
     function hideIndex(){

@@ -305,8 +305,8 @@ var events = [
 	/* Viernes 8:20 */
 	{
 		name: 'Cambia tu mente para emprender',
-		description: '',
-		speaker: 'Andrea Rosales',
+		description: 'Patrones mentales que muchas veces son un obstáculo para emprender y por eso muchas personas tienen miedo a hacerlo. Hablaremos sobre las heridas financieras y cómo corregirlas.',
+		speaker: 'Andrea Rosal',
 		day: '5',
 		time: '20:20',
 		place: 'Track 1 (viernes)',

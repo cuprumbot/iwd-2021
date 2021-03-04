@@ -44,7 +44,7 @@ var staff = [
 	{
 		name: 'Andrea Cabrera',
 		short: 'Licenciada en Marketing con MBA. Fundadora de la comunidad de emprendimiento femenina Wonder Woman Guatemala.',
-		information: '"Licenciada en Marketing con un MBA en la Universidad Rafael Landívar.\nEspecializada en Customer Experience por parte de la Universidad EAFIT de Colombia.\nCuenta con un diplomado en Derechos Humanos de la Mujer por la Universidad Austral de Argentina.\nFacilitadora de programas de emprendimiento a nivel nacional.\nDocente universitaria del área de desarrollo de emprendedores e innovación.\nCertificada en metodologías de innovación.\nFundadora de la comunidad de emprendimiento femenina en Guatemala, Wonder Woman Guatemala, en la que han capacitado a más de 400 emprendedoras en el país.\nFundadora y content creator de la agencia boutique de contenidos, Cherry on top. "',
+		information: 'Licenciada en Marketing con un MBA en la Universidad Rafael Landívar.\nEspecializada en Customer Experience por parte de la Universidad EAFIT de Colombia.\nCuenta con un diplomado en Derechos Humanos de la Mujer por la Universidad Austral de Argentina.\nFacilitadora de programas de emprendimiento a nivel nacional.\nDocente universitaria del área de desarrollo de emprendedores e innovación.\nCertificada en metodologías de innovación.\nFundadora de la comunidad de emprendimiento femenina en Guatemala, Wonder Woman Guatemala, en la que han capacitado a más de 400 emprendedoras en el país.\nFundadora y content creator de la agencia boutique de contenidos, Cherry on top.',
 		image: 'AndreaCabrera.jpg',
 		nationality: 'guatemala'
 	},
@@ -64,7 +64,7 @@ var staff = [
 	},
 	{
 		name: 'Bárbara Escobar',
-		short: 'Graduada de bióloga con Maestría en Conservación y Manejo de Vida Silvestre.',
+		short: 'Bióloga y feminista. Cofundadora parte del Comité Ejecutivo OWSD Guatemala. Involucrada en distintos espacios y actividades intentando cambiar un poco el mundo.',
 		information: 'De niña quería salvar a todos los animales del mundo, pensaba que sería veterinaria hasta que conocí la biología. Me gradué de bióloga en la Universidad de San Carlos de Guatemala y tengo una Maestría en Conservación y Manejo de Vida Silvestre. Actualmente trabajo para la organización internacional Panthera, la cual se dedica a la conservación de felinos silvestres. También tengo experiencia como docente, coordinadora en programas de monitoreo de biodiversidad e investigadora independiente. Cuento con 11 publicaciones científicas pero aprovecho que me gusta mucho escribir para también hacer divulgación científica en blogs, columnas y redes sociales. Con la esperanza de cambiar un poquito el mundo, me gusta involucrarme en iniciativas desde donde siento que puedo aportar así que actualmente también soy parte del Comité Ejecutivo del Capítulo Guatemala de la Organización para las Mujeres en Ciencia para el Mundo en Desarrollo (OWSD) y de la Junta Directiva del Colegio de Farmacéuticos y Químicos de Guatemala. Soy feminista y abogo por una sociedad más justa para todas las personas y los seres vivos con quienes compartimos este planeta. Me gusta la cerveza, el queso, leer y darle amor a los perritos.',
 		image: 'BarbaraEscobar.jpg',
 		nationality: 'guatemala'
@@ -142,10 +142,10 @@ var staff = [
 
 	/* to do, info */
 	{
-		name: 'Andrea Rosales',
-		short: '',
-		information: '',
-		image: 'default.png',
+		name: 'Andrea Rosal',
+		short: 'Empresaria e innovadora en el mercado de la belleza. Fundadora de la academia de maquillaje Andrea Paola Makeup School. Creadora de The Beauty Truck.',
+		information: 'Mi nombre es Andrea Paola Rosal soy una mujer empresaria e innovadora en el mercado de la belleza, tengo 10 años de experiencia como maquillista profesional.  Tengo una licenciatura en medios de comunicación y estudios internacionales sobre maquillaje e imagen en España, Mexico, Los Angeles y Francia.\nSoy fundadora de la academia de maquillaje Andrea Paola Makeup School actualmente se dan clases de maquillaje y peinado graduando a más de 200 mujeres profesionales con los más altos estándares de productos, conocimientos, prácticas en el mundo de la belleza.  Además fui pionera en tener la primera academia en línea sobre maquillaje en Guatemala graduando a más de 500 Alumnos de Latinoamérica. Soy la creadora del primer salón de belleza sobre ruedas en Guatemala y Centroamérica The Beauty Truck esta idea nace con el objetivo de llevarle a todas las mujeres los servicios de maquillaje, peinado y uñas a la puerta de su casa asimismo para eventos especiales como bodas, quince años o cumpleaños y tener un experiencia única.\nEn el 2020 lance mi línea de cosméticos vegana y sin parabenos Andrea Paola Cosmetics.\nActualmente también me dedico a crear contenido en redes sociales sobre finanzas y emprendimiento. Tengo un segmento de Martes de chicas financieras  y jueves de emprendedores.\nAdemás en 2020 me abrí campo en el mundo de los spas con Verana Spa con servicios de relajación, reducción y cuidado  de la piel.',
+		image: 'AndreaRosal.jpg',
 		nationality: 'guatemala'
 	},
 	{
