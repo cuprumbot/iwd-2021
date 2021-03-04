@@ -178,50 +178,50 @@ var staff = [
 	},
 	{
 		name: 'Cristhy Avilene Zaso Solis',
-		short: '',
-		information: '',
+		short: 'Odontologa y Emprendedora. Feliz madre y esposa',
+		information: 'Soy mamá, esposa, odontóloga y emprendedora, me encanta ayudar a otras mujeres a mejorar sus condiciones de vida y las de su familia.',
 		image: 'default.png',
 		nationality: 'guatemala'
 	},
 	{
 		name: 'Valeria del Pilar Gaitan Vallejo',
-		short: '',
-		information: '',
+		short: 'Licenciada en Diseño Gráfico. Enfocada al deseño digital para el servicio y soluciones en salud. Apasionada por explorar la intersección entre diseño, tecnología e impacto social.',
+		information: 'Valeria es una diseñadora de Guatemala que actualmente trabaja como diseñadora digital en EGGS Design en Noruega. Tiene una amplia experiencia trabajando en servicios y soluciones digitales dentro del sector de la salud, desde dar forma al futuro de los servicios para el sistema de bienestar público noruego hasta construir una aplicación para monitorear la ictericia en los recién nacidos. Además, también tiene experiencia en otros campos innovadores como; aplicaciones para cargar vehículos eléctricos, innovación social y planificación urbana participativa.\nLa pasión de Valeria es explorar la intersección entre diseño, tecnología e impacto social. Ella cree que los diseñadores deben enfocarse en resolver los problemas globales y que las metodologías de diseño inclusivas deben ser una parte integral de cada equipo de diseño. Por lo tanto, Valeria se esfuerza por crear productos y servicios que contribuyan a construir comunidades más equitativas.',
 		image: 'ValeriaGaitan.jpg',
 		nationality: 'guatemala'
 	},
 	{
 		name: 'Bessy Maria Chan Arevalo',
-		short: '',
-		information: '',
+		short: 'Ingeniera en Sistemas. Miembro del Equipo de Ciberseguridad del GRUPO BABEL.',
+		information: 'Mi nombre es Bessy Chan, soy  ingeniera en sistemas, poseo más de 10 años de experiencia en el área de TI; estudiante de Hacker Ético y peritaje en informática forense, actualmente me desempeño como Technical team Leader en Oracle Applications dentro de Walmart; a su vez formo parte del equipo de ciberseguridad de GRUPO BABEL.',
 		image: 'BessyChan.jpg',
 		nationality: 'guatemala'
 	},
 	{
 		name: 'Silvia Elizabeth Recinos Medina',
-		short: '',
-		information: '',
+		short: 'Licenciada en Diseño Gráfico, enfocada al ux/ui, miembro activo de Women Who Code Guatemala.',
+		information: 'Diseñadora gráfica enfocada al ux/ui, me graduó este año y formó parte de women who code Guatemala.',
 		image: 'default.png',
 		nationality: 'guatemala'
 	},
 	{
 		name: 'Marivi Briz',
-		short: '',
-		information: '',
+		short: 'Gerente de Desarrollo de Producto de Telefónica Digital en Global Consumer. Voluntaria de proyectos proporcionando una educación digital a niños de entornos vulnerables ',
+		information: '"María Virtudes Briz Ruiz, también conocida como ""Marivi"", es actualmente Gerente de Desarrollo de Producto de Telefónica Digital en Global Consumer, empresa de telecomunicaciones multinacional con presencia en 24 países y operación en 12. Desde que Marivi se unió a Telefónica, hace 9 años, ha estado trabajando en entornos desafiantes como Londres, São Paulo y Santiago de Chile, hasta llegar a las oficinas centrales en Madrid, España, en donde se encuentra basada.\nDurante esos años, ha estado cambiando áreas y roles laborales, pero el factor común es que ha podido comprender y traducir las necesidades de los clientes en soluciones digitales utilizando diferentes metodologías: Design Thinking, Design Sprint, Agile, Lean Startup.\nActualmente, sus principales responsabilidades incluyen la definición de roadmap global, liderar una estrategia de desarrollo de productos y la entrega de soluciones de Entretenimiento (video, juegos y música) disponibles en 8 países, +10 dispositivos, con más de 6 millones de usuarios e ingresos de + 1Bn €.\nSe le considera una ""intraemprendedora"", con mucha energía y una amplia experiencia en gestión, liderando grandes equipos multidisciplinarios (incluyendo Ingeniería, Calidad, Desarrollo de Software y Experiencia de Usuario).\nDesde sus inicios, ha destacado con la distinción Cum Laude de la Universidad del Valle de Guatemala en la carrera de Ciencias de la Computación en donde contaba con la beca parcial de dicha Universidad, tras varios años trabajando en Guatemala llegó a Telefónica de la mano de la beca Fundación Carolina otorgada por la Embajada de España para estudiar el Máster en Administración de Empresas con Especialidad en Dirección de Empresas Tecnológicas. Más adelante, recibió el Certificado Ejecutivo de Desarrollo de Estrategia tecnológica en Innovación por parte del prestigioso MIT Sloan School of Management.\nEs voluntaria de corazón, ha participado en varios proyectos relacionados a Profuturo cuyo objetivo es reducir la brecha educativa en el mundo proporcionando una educación digital de calidad a niños y niñas de entornos vulnerables de Latinoamérica, el Caribe, África y Asia. Estuvo donando sus vacaciones en 2012 en el proyecto de “Vacaciones Solidarias” en donde participó 3 semanas en Mar de Plata, Argentina. Es mentora de la división Junior de niñas STEAM en Madrid, España (Science, Technology, Engineering, Arts and Math).',
 		image: 'MariaVirtudesBriz.jpg',
 		nationality: 'espana'
 	},
 	{
 		name: 'Andrea Josefina Hernández Guerra',
-		short: '',
-		information: '',
+		short: 'Politóloga e Investigadora. Fundadora del Modelo de Naciones Unidas de Guatemala y Directora Departamental de la Red Mundial de Jóvenes Políticos Guatemala.',
+		information: 'Politóloga en formación, investigadora social y líder juvenil. Fundadora del Modelo de Naciones Unidas de Guatemala y Directora Departamental de la Red Mundial de Jóvenes Políticos Guatemala.',
 		image: 'AndreaHernandez.jpg',
 		nationality: 'guatemala'
 	},
 	{
 		name: 'Amanda Recinos',
-		short: '',
-		information: '',
+		short: 'Investigadora Científica, Directora de INNOVARIO Centro de Investigación para el desarrollo.',
+		information: '"Soy Madre, dedicada a la investigación científica, Directora de INNOVATION Centro de Investigación para el Desarrollo.\nTrabajo en los temas de\n1. Ambiente y Cambio climático\n2. Salud y Nutrición\n3. Tecnociencia y Sociedad\n4. Inclusión productiva\nCon 4 ejes transversales\n1. Educación\n2. Fortalecimiento integral\n3. Vinculación financiera\n4. Participación conjunta\nDesde 4 opticas diferentes\nMeta, Meso, Micro y Nacro dimensión\nLas ideas, leyes, desde el individuo hata la nación.',
 		image: 'AmandaRecinos.jpg',
 		nationality: 'guatemala'
 	},

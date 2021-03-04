@@ -23,9 +23,9 @@ var events = [
 		tba: '0'
 	},
 	{
-		name: 'TensorFlow Lite para el mundo IOT',
-		description: 'Empezar a ponerle "inteligencia artificial" a las cosas que se conectan a internet. Esta charla es un tema introductorio a TensorFlow Lite y sus usos y beneficios para los microcontroladores.',
-		speaker: 'Lesly Zerna',
+		name: 'Importancia de la mujer en carreras STEM',
+		description: 'Compartir los logros e impacto que han tenido las mujeres a nivel nacional como internacional en carreras STEM. Esto como una inspiración para las adolecentes.',
+		speaker: 'Victoria Chinchilla',
 		day: '5',
 		time: '09:10',
 		place: 'Track 2 (viernes)',
@@ -55,7 +55,7 @@ var events = [
 	},
 	/* Viernes 10:10 */
 	{
-		name: 'Ediciones de artista y humor: Una manera de democratizar el arte',
+		name: 'Abracemos el error: el arte como ejemplo',
 		description: 'Las ediciones de artista son piezas de arte producidas en serie. Usualmente en tirajes cortos, que permiten crear copias de una pieza y hacen accesible la obra. El humor es un recurso poco utilizado en el arte en Guatemala. Combinando ambas creé el proyecto Ácida. Una tienda de objetos de edición limitada, con una carga política y humor ácido.',
 		speaker: 'Nora Pérez',
 		day: '5',
@@ -65,15 +65,16 @@ var events = [
 		tba: '0'
 	},
 	{
-		name: 'Importancia de la mujer en carreras STEM',
-		description: 'Compartir los logros e impacto que han tenido las mujeres a nivel nacional como internacional en carreras STEM. Esto como una inspiración para las adolecentes.',
-		speaker: 'Victoria Chinchilla',
+		name: 'TensorFlow Lite para el mundo IOT',
+		description: 'Empezar a ponerle "inteligencia artificial" a las cosas que se conectan a internet. Esta charla es un tema introductorio a TensorFlow Lite y sus usos y beneficios para los microcontroladores.',
+		speaker: 'Lesly Zerna',
 		day: '5',
 		time: '10:10',
 		place: 'Track 2 (viernes)',
 		subjects: [],
 		tba: '0'
 	},
+	
 	{
 		name: 'Break',
 		description: '',
