@@ -189,7 +189,7 @@ var staff = [
 		nationality: 'guatemala'
 	},
 	{
-		name: 'Bessy Maria Chan Arevalo',
+		name: 'Bessy Maria Chan Arévalo',
 		short: 'Ingeniera en Sistemas. Miembro del Equipo de Ciberseguridad del GRUPO BABEL.',
 		information: 'Mi nombre es Bessy Chan, soy  ingeniera en sistemas, poseo más de 10 años de experiencia en el área de TI; estudiante de Hacker Ético y peritaje en informática forense, actualmente me desempeño como Technical team Leader en Oracle Applications dentro de Walmart; a su vez formo parte del equipo de ciberseguridad de GRUPO BABEL.',
 		image: 'BessyChan.jpg',

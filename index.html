@@ -390,7 +390,7 @@
                     html += event.speaker;
                     html += '</span>';
                     html += '</span>';
-                } else {
+                } else if (event.speaker != '') {
                     html += '<span class="event-speaker">';
                     html += '<span class="staff-image">';
                     html += '<img class="img" img-path="assets/img/conf/default.png" src="assets/img/conf/default.png">';
@@ -596,7 +596,7 @@
     }
 
     function getSecondName(name){
-        return name.split(" ")[1];
+        return name.split(" ")[0];
     }
 
     function generateStaff(){

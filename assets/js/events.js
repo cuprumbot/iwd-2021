@@ -4,7 +4,7 @@ var events = [
 	{
 		name: 'Bienvenida',
 		description: '',
-		speaker: 'Staff',
+		speaker: '',
 		day: '5',
 		time: '09:00',
 		place: 'Todos los tracks',
@@ -153,7 +153,7 @@ var events = [
 	{
 		name: 'Bienvenida',
 		description: '',
-		speaker: 'Staff',
+		speaker: '',
 		day: '5',
 		time: '18:00',
 		place: 'Todos los tracks',
@@ -341,7 +341,7 @@ var events = [
 	{
 		name: 'Bienvenida',
 		description: '',
-		speaker: 'Staff',
+		speaker: '',
 		day: '6',
 		time: '08:10',
 		place: 'Todos los tracks',
