@@ -251,7 +251,7 @@ var staff = [
 		short: '',
 		information: '',
 		image: 'default.png',
-		nationality: 'Mexico'
+		nationality: 'mexico'
 	},
 	{
 		name: 'Meiling Ericelda Esteban García',
