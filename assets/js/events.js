@@ -402,7 +402,7 @@ var events = [
 	},
 	{
 		name: '¿Dónde estamos las mujeres en las iniciativas juveniles de hoy? Dos casos particulares',
-		description: '"El Modelo de Naciones Unidas de Guatemala (MONUGUA), es el Primer Modelo de la Organización de las Naciones Unidas busca que los participantes puedan establecer estrategias para encontrar soluciones a conflictos internacionales. La Red Mundial de Jóvenes Políticos llega a Guatemala a principios de 2019, con el propósito de luchar por la democracia, los derechos humanos y el trabajo de los objetivos de desarrollo sostenible. En este espacio queremos abordar cuál ha sido el aporte fundamental que las mujeres hemos realizado en la creación y consolidación de estas dos organizaciones juveniles guatemaltecas.',
+		description: 'El Modelo de Naciones Unidas de Guatemala (MONUGUA), es el Primer Modelo de la Organización de las Naciones Unidas busca que los participantes puedan establecer estrategias para encontrar soluciones a conflictos internacionales. La Red Mundial de Jóvenes Políticos llega a Guatemala a principios de 2019, con el propósito de luchar por la democracia, los derechos humanos y el trabajo de los objetivos de desarrollo sostenible. En este espacio queremos abordar cuál ha sido el aporte fundamental que las mujeres hemos realizado en la creación y consolidación de estas dos organizaciones juveniles guatemaltecas.',
 		speaker: 'Andrea Josefina Hernández Guerra',
 		day: '6',
 		time: '08:40',
@@ -545,5 +545,140 @@ var events = [
 		subjects: [],
 		tba: '0'
 	},
+	/* Sábado 11:30 */
+	{
+		name: 'Las mujeres y el ODS 9: Industria, innovación e infraestructura',
+		description: '',
+		speaker: 'Daniella Suger',
+		day: '6',
+		time: '11:30',
+		place: 'Track 1 (sábado)',
+		subjects: [],
+		tba: '0'
+	},
+	{
+		name: 'Liderazgo y participación ciudadana',
+		description: 'El liderazgo como punto clave para la participación en los distintos espacios de la sociedad.',
+		speaker: 'Alejandra María Cabrera Robles',
+		day: '6',
+		time: '11:30',
+		place: 'Track 2 (sábado)',
+		subjects: [],
+		tba: '0'
+	},
+	{
+		name: 'De Guatemala para el mundo',
+		description: 'Cómo mis estudios me han llevado a vivir en tres continentes diferentes.',
+		speaker: 'Mayra Yucely Beb Caal',
+		day: '6',
+		time: '11:30',
+		place: 'Track 3 (sábado)',
+		subjects: [],
+		tba: '0'
+	},
+	/* Sábado 11:45 */
+	{
+		name: 'Transformando el sistema de salud con tecnología en tiempos de pandemia',
+		description: 'Junto a un equipo joven e innovador desde que se reportaron los primeros casos de COVID-19 en Guatemala tuve la oportunidad de empezar a pensar como la tecnología podría aportar a la respuesta de la pandemia. Llevo tratando de responder esta pregunta 9 meses y cada respuesta que surge se ha logrado materializar en un producto que es parte del Sistema ALMA, un sistema que brindamos de forma gratuita para optimizar la respuesta del sistema de salud.',
+		speaker: 'Gabriela Asturias',
+		day: '6',
+		time: '11:45',
+		place: 'Track 1 (sábado)',
+		subjects: [],
+		tba: '0'
+	},
+	{
+		name: 'Bases para llevar una alimentación saludable',
+		description: 'Recomendaciones y tips para mejorar nuestra alimentación y gozar de una mejor salud.',
+		speaker: 'Bridgette Elisa Porras Barrios',
+		day: '6',
+		time: '11:45',
+		place: 'Track 2 (sábado)',
+		subjects: [],
+		tba: '0'
+	},
+	{
+		name: '¿Gordo... qué? Gordofobia',
+		description: 'La gordofobia es un fenómeno mundial en el que se discrimina a los cuerpos gordos sin fundamentos científicos legítimos. Mi objetivo es brindar más información de esto para desestigmatizar la gordofobia internalizada y sembrar duda en los profesionales de la salud que por mucho tiempo hemos trabajado bajo este esquema.',
+		speaker: 'Lucia Rosales',
+		day: '6',
+		time: '11:45',
+		place: 'Track 1 (sábado)',
+		subjects: [],
+		tba: '0'
+	},
+	/* Sábado 12:00 */
+	{
+		name: 'Entendiendo el rol del PM y del PO',
+		description: 'Poder compartir, las caracterísiticas y diferencias entre un Project Manager y un Product Owner.',
+		speaker: 'Damaris Lucía Lucero Rosales',
+		day: '6',
+		time: '12:00',
+		place: 'Track 1 (sábado)',
+		subjects: [],
+		tba: '0'
+	},
+	{
+		name: 'La electricidad: desde que se genera hasta nuestros hogares',
+		description: '',
+		speaker: 'María Isabel Fernández',
+		day: '6',
+		time: '12:00',
+		place: 'Track 2 (sábado)',
+		subjects: [],
+		tba: '0'
+	},
+	{
+		name: 'Herramientas digitales para gestión del tiempo',
+		description: 'Compartiría la importancia de gestionar el tiempo para lograr nuestras metas, una ruta de gestión de tiempo y herramientas digitales para abordarla.',
+		speaker: 'Karla Marisol Pérez Romero',
+		day: '6',
+		time: '12:00',
+		place: 'Track 3 (sábado)',
+		subjects: [],
+		tba: '0'
+	},
+	/* Sábado 12:30 */
+	{
+		name: 'El boom del E-commerce',
+		description: '"El E-commerce ha sido uno de los más grandes inventos en estos últimos años e imprescindible en la pandemia que estamos viviendo, puesto a que desarrollo una manera más accesible de buscar y vender artículos al alcance de un solo clic.',
+		speaker: 'Dayana Nina',
+		day: '6',
+		time: '12:30',
+		place: 'Track 1 (sábado)',
+		subjects: [],
+		tba: '0'
+	},
+	{
+		name: 'Transformación digital',
+		description: 'Ante la Pandemia, nuestro rol ha cambiado y con ello, surgen diferentes necesidades, diferentes aprendizajes y expereincias. No sabíamos que también estábamos equipadas para hacer este tipo de transformaciones.',
+		speaker: 'Hilda Isabel Aguilar Figueroa',
+		day: '6',
+		time: '12:30',
+		place: 'Track 2 (sábado)',
+		subjects: [],
+		tba: '0'
+	},
+	{
+		name: 'Liderazgo, ¿cómo mejorar la dinámica de equipo?',
+		description: '"En esta charla se propondrán algunas ideas o tips sobre liderazgo que pueden ser de utilidad para mejorar la dinámica de equipo.\nMuchas de las dificultades que pueden presentarse en el ámbito laboral se derivan de la comunicación poco adecuada, así que este es el principal aspecto que se abordará en la sesión.',
+		speaker: 'Angela Samantha Tepec González',
+		day: '6',
+		time: '12:30',
+		place: 'Track 3 (sábado)',
+		subjects: [],
+		tba: '0'
+	},
+	{
+		name: 'Womint - ¡Lanzando un MVP!',
+		description: 'Sin lanzar en el stack soñado (Ni la UI/UX Soñada), si no guiándonos por el tiempo, lanzamos una plataforma de empleabilidad y mentoría en tiempo récord logrando en pocas semanas 200+ mujeres registradas en todo Latam. Queremos compartir la historia de Womint, cómo nace, y cómo se consolidará en 2021.',
+		speaker: 'Marian Villa',
+		day: '6',
+		time: '13:00',
+		place: 'Track 1 (sábado)',
+		subjects: [],
+		tba: '0'
+	},
+
 ];
 
