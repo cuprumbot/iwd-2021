@@ -387,6 +387,163 @@ var events = [
 		place: 'Track 3 (sábado)',
 		subjects: [],
 		tba: '0'
-	}
+	},
+
+	/* Sabado 8:40 */
+	{
+		name: 'Sesgos inconscientes: ¿qué son y por qué son importantes en la diversidad?',
+		description: 'No somos conscientes de lo inconscientes que somos: nos sentimos discriminadas pero, a lo largo de nuestro día, formamos parte de distintas micro-discriminaciones que tienen su origen en los sesgos inconscientes. Hay situaciones en las que se producen sesgos, errores que provocan impresiones e intuiciones erróneas, nuestro cerebro es muy eficiente y funciona así para sobrevivir. Si somos capaces de identificarlos, podemos cambiar nuestra realidad y el de quienes nos rodean.',
+		speaker: 'Marivi Briz',
+		day: '6',
+		time: '08:40',
+		place: 'Track 1 (sábado)',
+		subjects: [],
+		tba: '0'
+	},
+	{
+		name: '¿Dónde estamos las mujeres en las iniciativas juveniles de hoy? Dos casos particulares',
+		description: '"El Modelo de Naciones Unidas de Guatemala (MONUGUA), es el Primer Modelo de la Organización de las Naciones Unidas busca que los participantes puedan establecer estrategias para encontrar soluciones a conflictos internacionales. La Red Mundial de Jóvenes Políticos llega a Guatemala a principios de 2019, con el propósito de luchar por la democracia, los derechos humanos y el trabajo de los objetivos de desarrollo sostenible. En este espacio queremos abordar cuál ha sido el aporte fundamental que las mujeres hemos realizado en la creación y consolidación de estas dos organizaciones juveniles guatemaltecas.',
+		speaker: 'Andrea Josefina Hernández Guerra',
+		day: '6',
+		time: '08:40',
+		place: 'Track 2 (sábado)',
+		subjects: [],
+		tba: '0'
+	},
+	{
+		name: 'Innovación: una forma de transformar el futuro',
+		description: 'La innovación es la solución para avanzar a un mejor futuro, es una apuests sobre seguro al desarrollo, y si se hace con optica dd mujeres transformamos familias y al transformar familias, impactamis sociedades.',
+		speaker: 'Amanda Recinos',
+		day: '6',
+		time: '08:40',
+		place: 'Track 3 (sábado)',
+		subjects: [],
+		tba: '0'
+	},
+
+	/* Sábado 9:10 */
+	{
+		name: 'La mujer en las ciencias espaciales',
+		description: 'Se hablará sobre la participación de las mujeres en la ciencias espaciales; cronología, mujeres destacadas y la participación de Guatemaltecas en el área espacial.',
+		speaker: 'Katherinne Herrera',
+		day: '6',
+		time: '09:10',
+		place: 'Track 1 (sábado)',
+		subjects: [],
+		tba: '0'
+	},
+	{
+		name: 'El Poder de las Mujeres',
+		description: 'La influencia de las mujeres en las diferentes áreas de la vida y en los negocios ',
+		speaker: 'Susana Roca Estrada',
+		day: '6',
+		time: '09:10',
+		place: 'Track 2 (sábado)',
+		subjects: [],
+		tba: '0'
+	},
+	{
+		name: 'Dale alas a tu presencia remota',
+		description: 'No permitas que el entorno de trabajo remoto apague tu fuego para conectarte con colegas, hacer crecer tu marca personal y buscar nuevas oportunidades profesionales. Estar remoto tiene muchas ventajas cuando se trata de tu futuro en el trabajo. En esta charla, aprenderás nuevas formas de mostrar tu valor a colegas, gerentes y líderes, y serás considerado para proyectos y promociones más importantes, mientras trabajas como parte de un equipo distribuido. El campo de juego se está nivelando y el trabajo de tus sueños está más cerca de lo que crees.',
+		speaker: 'María Andrée Paiz',
+		day: '6',
+		time: '09:10',
+		place: 'Track 3 (sábado)',
+		subjects: [],
+		tba: '0'
+	},
+	/* Viernes 9:40, pendiente Dulce */
+	{
+		name: 'Táctica vs Estrategia ¿Cómo lograr tus metas?',
+		description: '',
+		speaker: 'Isis García',
+		day: '6',
+		time: '09:40',
+		place: 'Track 2 (sábado)',
+		subjects: [],
+		tba: '0'
+	},
+	{
+		name: 'Conociendo Arduino',
+		description: 'Los asistentes conocerán sobre qué es y como funciona Arduino.',
+		speaker: 'Meiling Ericelda Esteban García',
+		day: '6',
+		time: '09:40',
+		place: 'Track 3 (sábado)',
+		subjects: [],
+		tba: '0'
+	},
+	{
+		name: 'Escribir siendo mujer es tener una granada con el seguro entre los dedos',
+		description: '',
+		speaker: 'Jeanny Chapeta',
+		day: '6',
+		time: '09:55',
+		place: 'Track 3 (sábado)',
+		subjects: [],
+		tba: '0'
+	},
+	/* Sábado 10:10 */
+	{
+		name: 'AI for Secure Driving - Aplicando Machine Learning a problemáticas sociales',
+		description: 'En esta charla presentaré un ejemplo de aplicación de Machine Learning para la búsqueda de una problemática social. En este proyecto se aplica Machine Learning para predecir la probabilidad de un accidente vial en tiempo real dadas un conjunto de variables como las condiciones del clima, la zona por la que transita y características del vehículo.',
+		speaker: 'Rosa Delfina Sunum Orellana',
+		day: '6',
+		time: '10:10',
+		place: 'Track 1 (sábado)',
+		subjects: [],
+		tba: '0'
+	},
+	{
+		name: 'UI/UX',
+		description: 'Concepto, diferencia y mejoras UI/UX.',
+		speaker: 'Maria Fernanda Montenegro Monterroso',
+		day: '6',
+		time: '10:10',
+		place: 'Track 2 (sábado)',
+		subjects: [],
+		tba: '0'
+	},
+	{
+		name: 'El diseño en el activismo',
+		description: '"Como el diseño gráfico ha convertido el activismo en ciberactivismo, en esta era de la hiperconectividad, como una parte importante para informar a los jóvenes. Las redes sociales son las herramientas para transmitir los mensajes a muchas personas.',
+		speaker: 'María del Rosario Salazar Letona',
+		day: '6',
+		time: '10:10',
+		place: 'Track 3 (sábado)',
+		subjects: [],
+		tba: '0'
+	},
+	/* Sábado 10:40 */
+	{
+		name: 'Practical machine learning for iOS apps',
+		description: 'El aprendizaje automático es increíblemente popular en este momento, pero ¿es realmente útil cuando está creando aplicaciones de iOS? ¿Cómo funciona de todos modos? ¿No hay muchas matemáticas desagradables involucradas? Averigüemos juntos. En esta sesión, exploraremos lo que es posible con AI en iOS, utilizando las tecnologías CreateML y CoreML de Apple.',
+		speaker: 'Ana Cecilia Castillo',
+		day: '6',
+		time: '10:40',
+		place: 'Track 1 (sábado)',
+		subjects: [],
+		tba: '0'
+	},
+	{
+		name: 'El UX checklist que todos necesitamos',
+		description: 'Crear un producto digital es un proceso que varía según el enfoque, el cliente, el tipo de proyecto en sí, entre otros factores. En esta ocasión repasaremos un checklist de conceptos de UX sobre pasos imprescindibles que pueden ser aplicados para el diseño de un producto digital. [Basado en el modelo creado por Andrea Soverini]',
+		speaker: 'Gaby Futch',
+		day: '6',
+		time: '10:40',
+		place: 'Track 2 (sábado)',
+		subjects: [],
+		tba: '0'
+	},
+	{
+		name: '¿Se puede usar la Inteligencia Artificial para estudiar el comportamiento?',
+		description: 'Hablar de herramientas específicas de Inteligencia Artificial que me han ayudado a estudiar comportamiento de organismos en distintas formas. Usando DeepLabCut he podido estudiar desde experimentos en laboratorios y fuera de. Un poco de mi recorrido de ser bióloga y maestra a trabajar con programación, análisis de datos e Inteligencia Artificial.',
+		speaker: 'María Regina Zaghi Lara',
+		day: '6',
+		time: '08:40',
+		place: 'Track 1 (sábado)',
+		subjects: [],
+		tba: '0'
+	},
 ];
 

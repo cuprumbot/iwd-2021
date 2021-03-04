@@ -746,7 +746,7 @@ nav {
       .staff-container .staff-card .staff-image .img {
         transition: 0.3s ease;
         width: 100%;
-        height: auto;
+        height: 100%; /* find me, should be auto :( */;
         position: absolute;
         top: 50%;
         left: 50%;
@@ -863,7 +863,7 @@ nav {
       .dynamic-expanded-information .section-body .staff-expanded-card .staff-image .img {
         transition: 0.3s ease;
         width: 100%;
-        height: auto;
+        height: 100%; /* should be auto */
         position: absolute;
         top: 50%;
         left: 50%;
@@ -953,6 +953,8 @@ nav {
         cursor: default;
         color: #4285f4;
         background: #ddeeff; }
+      .events-container .time-selection .time-selector.oculto {
+        visibility: hidden; }
   .events-container .day-card {
     display: none; }
     .events-container .day-card.shown {

@@ -343,8 +343,6 @@
                     }
                 }
                 
-                //finded = true;
-                
                 html += (night)? '<span class="event-time night">' : '<span class="event-time">';
                 html += '<span class="time">';
                 html += strTime;
@@ -387,6 +385,15 @@
                     html += '<span class="staff-name">';    /* find me staff */
                     html += `<span class="staff-flag"><img src="assets/img/paises/${speaker.nationality}.png"></span>`;
                     //html += speaker.name;
+                    html += event.speaker;
+                    html += '</span>';
+                    html += '</span>';
+                } else {
+                    html += '<span class="event-speaker">';
+                    html += '<span class="staff-image">';
+                    html += '<img class="img" img-path="assets/img/conf/default.png" src="assets/img/conf/default.png">';
+                    html += '</span>';
+                    html += '<span class="staff-name">';    /* find me staff */
                     html += event.speaker;
                     html += '</span>';
                     html += '</span>';

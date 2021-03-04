@@ -17,7 +17,7 @@ var staff = [
 		name: 'Lourdes López',
 		short: 'Premiada por The Diana Award, fundadora de Dirección de Proyectos de Juventudes y Mujeres en la Fundación Oxlajuj N\'oj',
 		information: 'Guatemalteca de 25 años de edad premiada por The Diana Award, UK , 2020 y la Organización Mundial Democrática como Mujer Líder y Emprendedora Social 2019, graduada a sus 22 años de la Universidad Rafael Landívar de la Licenciatura Investigación Criminal y Forense, y Licenciatura de Sociología de la Universidad San Carlos de Guatemala, con una trayectoria en investigación social, violencias, mujeres indigenas y juventudes. Fundadora de Dirección de Proyectos de Juventudes y Mujeres en la Fundación Oxlajuj N\'oj. Ha dado ponencias presenciales en congresos internacionales España, México,Costa Rica, Salvador y Perú. Se ha especializado en Investigación Social y Prevención de Violencia Sexual en Facultad Latinoamericana de Ciencias Sociales (FLACSO), Estudios de las Mujeres y Género, Gestión de proyectos con enfoque de género, Innovación Politica y Seguridad Nacional. Andrea Lourdes es activista en diferentes organizaciones como Organización Juvenil Con Vos, Fundacion Oxlajuj N\'oj, Observatorio contra el Acoso Callejero y Jovénes Iberoamericanos. Embajadora de la ODM en Guatemala y miembro OSWD. Actualmente cursa su máster en Estudios de Género y Mujeres- GEMMA ERASMUS MUNDUS-.',
-		image: 'LourdesLopez.png',
+		image: 'LourdesLopez.jpg',
 		nationality: 'espana'
 	},
 	{
@@ -38,14 +38,14 @@ var staff = [
 		name: 'Victoria Chinchilla',
 		short: 'Ingeniera Mecánica Eléctrica. Interesada en la ciencia, ayuda social y protección de los animales.',
 		information: '"Mi nombre es Victoria Alejandra Chinchilla Reyes tengo 25 años y vivo con mucha pasión por lo que hago. Tengo intereses diversos, que van desde la ciencia, la ayuda social, la protección de animales y vivir de una manera sana conmigo misma y con los que me rodean.\nTengo deseos de aprender, de ser mejor, pero también de poder entregar mis conocimientos, experiencias y enriquecernos de una manera bidireccional.\nAcadémicamente desde temprana edad tuve la curiosidad de aprender sobre varias disciplinas y tuve la fortuna de poder emprender mi formación académica orientada a la ingeniería. Soy una estudiante de Ingeniería Mecánica Eléctrica en la Universidad de San Carlos de Guatemala. Acabo de finalizar mis estudios de licenciatura y estoy empezando a estudiar una Maestría en Gestión de Mercados Eléctricos Regulados.\nDesde ya les agradezco el espacio y poder ser parte de este evento."',
-		image: 'VictoriaChinchilla.png',
+		image: 'VictoriaChinchilla.jpg',
 		nationality: 'guatemala'
 	},
 	{
 		name: 'Andrea Cabrera',
 		short: 'Licenciada en Marketing con MBA. Fundadora de la comunidad de emprendimiento femenina Wonder Woman Guatemala.',
 		information: '"Licenciada en Marketing con un MBA en la Universidad Rafael Landívar.\nEspecializada en Customer Experience por parte de la Universidad EAFIT de Colombia.\nCuenta con un diplomado en Derechos Humanos de la Mujer por la Universidad Austral de Argentina.\nFacilitadora de programas de emprendimiento a nivel nacional.\nDocente universitaria del área de desarrollo de emprendedores e innovación.\nCertificada en metodologías de innovación.\nFundadora de la comunidad de emprendimiento femenina en Guatemala, Wonder Woman Guatemala, en la que han capacitado a más de 400 emprendedoras en el país.\nFundadora y content creator de la agencia boutique de contenidos, Cherry on top. "',
-		image: 'AndreaCabrera.png',
+		image: 'AndreaCabrera.jpg',
 		nationality: 'guatemala'
 	},
 	{
@@ -80,7 +80,7 @@ var staff = [
 		name: 'Women Who Code',
 		short: '',
 		information: '',
-		image: 'wwc.png',
+		image: 'wwc.jpg',
 		nationality: 'guatemala'
 	},
 	{
@@ -108,7 +108,7 @@ var staff = [
 		name: 'Red Interuniversitaria Seguras y Educadas',
 		short: 'Plataforma de cooperación interuniversitaria, iniciada en 2020. ',
 		information: 'Somos una plataforma de cooperación interuniversitaria, que busca articular y plantear propuestas para prevenir, sancionar y resarcir la violencia sexual dentro de las universidades del país. Nuestro trabajo, que inició en 2020, incluye investigación, educación y activismo feminista.',
-		image: 'RISE.png',
+		image: 'RISE.jpg',
 		nationality: 'guatemala'
 	},
 	{
@@ -162,8 +162,6 @@ var staff = [
 		image: 'default.png',
 		nationality: 'guatemala'
 	},
-
-	/* to do, descripcion */
 	{
 		name: 'Claudia Andrea Maucaylli Campos',
 		short: 'Diseñadora por pasión. Interaction designer, Co-host y parte del equipo de Organización y Logística en Más Mujeres',
