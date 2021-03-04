@@ -857,25 +857,6 @@
     //$(document).ready(()=>{
     (function($) {
 
-        if(window.location.hash) {
-            // Remove the # character
-            var hash = window.location.hash.substring(1); 
-            if(hash == 'registro' || hash == 'r'){
-                hideIndex();
-                generateRegister();
-            } else if (hash == 'agenda' || hash == 'a') {
-                hideIndex();
-                generateAgenda();
-            } else if (hash == 'conferencistas' || hash == 'c') {
-                hideIndex();
-                console.log('staff');
-                generateStaff();
-            } else if (hash == 'conducta' || hash == 'cc') {
-                hideIndex();
-                generateConduct();
-            }
-        }
-
         var inserted = false;
         staff.forEach((element, index) => {
             inserted = false;
@@ -894,6 +875,25 @@
                 }
             }
         });
+
+        if(window.location.hash) {
+            // Remove the # character
+            var hash = window.location.hash.substring(1); 
+            if(hash == 'registro' || hash == 'r'){
+                hideIndex();
+                generateRegister();
+            } else if (hash == 'agenda' || hash == 'a') {
+                hideIndex();
+                generateAgenda();
+            } else if (hash == 'conferencistas' || hash == 'c') {
+                hideIndex();
+                console.log('staff');
+                generateStaff();
+            } else if (hash == 'conducta' || hash == 'cc') {
+                hideIndex();
+                generateConduct();
+            }
+        }
 
         $('#innovation-logo')[0].onload = ()=>{
             if(inIndex) $('.title-container').css('opacity', '1');

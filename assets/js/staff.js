@@ -50,8 +50,8 @@ var staff = [
 	},
 	{
 		name: 'Daniella Suger',
-		short: 'Ingeniera en Química. Coordinadora de Red UG de Responsabilidad Ambiental. Vice-Decana Facultad de Ingeniería Química.',
-		information: 'Ingeniera en Química de la Universidad del Valle de Guatemala. Coordinadora de Red Universidad Galileo de Responsabilidad Ambiental. Vice-Decana de la Facultad de Ingeniería Química de Universidad Galileo.',
+		short: 'Ingeniera Química. Labora en Universidad Galileo como Vicedecana de la Facultad de Ingeniería Química y Estudios Especializados en Informática y Sostenibilidad.',
+		information: 'Guatemalteca graduada de Ingeniería Química de la Universidad del Valle de Guatemala, con una Maestría en Estrategias Público-Privadas de Desarrollo Sostenible de la Universidad Galileo, tiene experiencia en temas ambientales, en especial el cambio climático, y sostenibilidad. Actualmente labora en Universidad Galileo como Vicedecana de la Facultad de Ingeniería Química y Estudios Especializados en Informática y Sostenibilidad y docente.',
 		image: 'DaniellaSuger.png',
 		nationality: 'guatemala'
 	},
@@ -150,9 +150,9 @@ var staff = [
 	},
 	{
 		name: 'Andrea Xitumul',
-		short: '',
-		information: '',
-		image: 'default.png',
+		short: 'Soy una profesional con más de 10 años de experiencia en sistemas de gestión de calidad y seguridad ocupacional.',
+		information: 'Soy una profesional con más de 10 años de experiencia en sistemas de gestión de calidad y seguridad ocupacional. Organizada, disciplinada y con capacidad de adaptarma a los diferentes planes de las empresas para las que he trabajado.\nDurante mi ejercicio profesional, he adquirido conocimientos de supervisión en trabajos de campo, mantenimientos en hidroeléctricas, construcción y montaje de subestaciones eléctricas y líneas de transmisión, análisis de trabajo seguro, sistemas de gestión ISO 9001, 18001, 45000, gestión de riesgos en proyectos, gestión por procesos, seguridad e higiene industrial, liderazgo, sistemas de gestión integrados, metodologías 5s y 9s, primeros auxilios, certificaciones en trabajos en alturas, seguridad y rescate en zonas agrestes, auditor interno de sitemas de gestión de calidad.',
+		image: 'AndreaXitumul.png',
 		nationality: 'guatemala'
 	},
 	{
@@ -167,6 +167,13 @@ var staff = [
 		short: 'Diseñadora por pasión. Interaction designer, Co-host y parte del equipo de Organización y Logística en Más Mujeres',
 		information: 'Me considero una diseñadora por pasión, una viajera de corazón y una aprendiz eterna.\nInteraction designer en UTP, co-host en UX Pills, UX designer freelancer, parte del equipo de Organización y Logística en Más Mujeres en UX Perú y facilitadora de talleres sobre diseño UX. Cuento con experiencia en los rubros de banca, educación, e-commerce y telecomunicaciones. Me encanta aprender y compartir sobre diversos temas en comunidad.',
 		image: 'ClaudiaAndreaMaucaylli.jpg',
+		nationality: 'guatemala'
+	},
+	{
+		name: 'Jeanny Chapeta',
+		short: '',
+		information: 'Escritora guatemalteca, nace en 1988. Ganadora del certamen “El Palabrerista” en 2016 por el cuento Claudia y los gatos, el cual fue traducido al inglés y publicado en el Rincón de traductores del Instituto Cervantes de la Universidad de Harvard . Ha recibido cuatro premios más a nivel universitario e interuniversitario. Hasta el momento ha publicado las novelas El año que Lucía dejó de soñar & ¿Volverás a soñar Lucía? y los libros de cuentos Historias incompletas & Casa de Silencios. También ha publicado en diversas revistas a nivel latinoamericano. Es profesora en Lengua y Literatura por la Universidad del Valle de Guatemala y actualmente trabaja en dos proyectos novelísticos que podrían estar disponibles a final del 2021.',
+		image: 'JeannyChapeta.jpg',
 		nationality: 'guatemala'
 	}
 
