@@ -187,14 +187,14 @@ var staff = [
 		name: 'Valeria del Pilar Gaitan Vallejo',
 		short: '',
 		information: '',
-		image: 'default.png',
+		image: 'ValeriaGaitan.jpg',
 		nationality: 'guatemala'
 	},
 	{
 		name: 'Bessy Maria Chan Arevalo',
 		short: '',
 		information: '',
-		image: 'default.png',
+		image: 'BessyChan.jpg',
 		nationality: 'guatemala'
 	},
 	{
@@ -208,28 +208,28 @@ var staff = [
 		name: 'Marivi Briz',
 		short: '',
 		information: '',
-		image: 'default.png',
+		image: 'MariaVirtudesBriz.jpg',
 		nationality: 'guatemala'
 	},
 	{
 		name: 'Andrea Josefina Hernández Guerra',
 		short: '',
 		information: '',
-		image: 'default.png',
+		image: 'AndreaHernandez.jpg',
 		nationality: 'guatemala'
 	},
 	{
 		name: 'Amanda Recinos',
 		short: '',
 		information: '',
-		image: 'default.png',
+		image: 'AmandaRecinos.jpg',
 		nationality: 'guatemala'
 	},
 	{
-		name: 'Katherine Herrera',
+		name: 'Katherinne Herrera',
 		short: '',
 		information: '',
-		image: 'default.png',
+		image: 'KatherinneHerrera.jpg',
 		nationality: 'guatemala'
 	},
 	{
@@ -243,7 +243,7 @@ var staff = [
 		name: 'María Andrée Paiz',
 		short: '',
 		information: '',
-		image: 'default.png',
+		image: 'MariaAndreePaiz.jpg',
 		nationality: 'guatemala'
 	},
 	{
@@ -257,49 +257,133 @@ var staff = [
 		name: 'Meiling Ericelda Esteban García',
 		short: '',
 		information: '',
-		image: 'default.png',
+		image: 'MeilingEsteban.jpg',
 		nationality: 'guatemala'
 	},
 	{
 		name: 'Rosa Delfina Sunum Orellana',
 		short: '',
 		information: '',
-		image: 'default.png',
+		image: 'RosaSunum.jpg',
 		nationality: 'guatemala'
 	},
 	{
 		name: 'Maria Fernanda Montenegro Monterroso',
 		short: '',
 		information: '',
-		image: 'default.png',
+		image: 'MariaMontenegro.jpg',
 		nationality: 'guatemala'
 	},
 	{
 		name: 'María del Rosario Salazar Letona',
 		short: '',
 		information: '',
-		image: 'default.png',
+		image: 'MariaSalazar.jpg',
 		nationality: 'guatemala'
 	},
 	{
 		name: 'Ana Cecilia Castillo',
 		short: '',
 		information: '',
-		image: 'default.png',
+		image: 'AnaCastillo.jpg',
 		nationality: 'guatemala'
 	},
 	{
 		name: 'Gaby Futch',
 		short: '',
 		information: '',
-		image: 'default.png',
+		image: 'GabyFutch.jpg',
 		nationality: 'guatemala'
 	},
 	{
 		name: 'María Regina Zaghi Lara',
 		short: '',
 		information: '',
+		image: 'MariaZaghi.jpg',
+		nationality: 'guatemala'
+	},
+	{
+		name: 'Alejandra María Cabrera Robles',
+		short: '',
+		information: '',
+		image: 'AndreaCabrera.jpg',
+		nationality: 'guatemala'
+	},
+	{
+		name: 'Mayra Yucely Beb Caal',
+		short: '',
+		information: '',
 		image: 'default.png',
+		nationality: 'guatemala'
+	},
+	{
+		name: 'Gabriela Asturias',
+		short: '',
+		information: 'GabrielaAsturias.jpg',
+		image: 'default.png',
+		nationality: 'guatemala'
+	},
+	{
+		name: 'Bridgette Elisa Porras Barrios',
+		short: '',
+		information: '',
+		image: 'default.png',
+		nationality: 'guatemala'
+	},
+	{
+		name: 'Lucia Rosales',
+		short: '',
+		information: '',
+		image: 'default.png',
+		nationality: 'guatemala'
+	},
+	{
+		name: 'Damaris Lucía Lucero Rosales',
+		short: '',
+		information: '',
+		image: 'DamarisLucero.jpg',
+		nationality: 'guatemala'
+	},
+	{
+		name: 'María Isabel Fernández',
+		short: '',
+		information: '',
+		image: 'default.png',
+		nationality: 'guatemala'
+	},
+	{
+		name: 'Karla Marisol Pérez Romero',
+		short: '',
+		information: '',
+		image: 'KarlaPerez.jpg',
+		nationality: 'guatemala'
+	},
+	{
+		name: 'Dayana Nina',
+		short: '',
+		information: '',
+		image: 'DayanaNina.jpg',
+		nationality: 'guatemala'
+	},
+	{
+		name: 'Hilda Isabel Aguilar Figueroa',
+		short: '',
+		information: '',
+		image: 'HildaAguilar.jpg',
+		nationality: 'guatemala'
+	},
+	{
+		name: 'Angela Samantha Tepec González',
+		short: '',
+		information: '',
+		image: 'default.png',
+		nationality: 'guatemala'
+	},
+	{
+		name: 'Marian Villa',
+		short: '',
+		information: '',
+		image: 'MarianVilla.jpg',
 		nationality: 'guatemala'
 	}
 
