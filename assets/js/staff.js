@@ -183,7 +183,7 @@ var staff = [
 	},
 	{
 		name: 'Valeria del Pilar Gaitan Vallejo',
-		short: 'Licenciada en Diseño Gráfico. Enfocada al deseño digital para el servicio y soluciones en salud. Apasionada por explorar la intersección entre diseño, tecnología e impacto social.',
+		short: 'Licenciada en Diseño Industrial con Maestría en Diseño de Interacción. Enfocada al deseño digital para el servicio y soluciones en salud. Apasionada por explorar la intersección entre diseño, tecnología e impacto social.',
 		information: 'Valeria es una diseñadora de Guatemala que actualmente trabaja como diseñadora digital en EGGS Design en Noruega. Tiene una amplia experiencia trabajando en servicios y soluciones digitales dentro del sector de la salud, desde dar forma al futuro de los servicios para el sistema de bienestar público noruego hasta construir una aplicación para monitorear la ictericia en los recién nacidos. Además, también tiene experiencia en otros campos innovadores como; aplicaciones para cargar vehículos eléctricos, innovación social y planificación urbana participativa.\nLa pasión de Valeria es explorar la intersección entre diseño, tecnología e impacto social. Ella cree que los diseñadores deben enfocarse en resolver los problemas globales y que las metodologías de diseño inclusivas deben ser una parte integral de cada equipo de diseño. Por lo tanto, Valeria se esfuerza por crear productos y servicios que contribuyan a construir comunidades más equitativas.',
 		image: 'ValeriaGaitan.jpg',
 		nationality: 'guatemala'
