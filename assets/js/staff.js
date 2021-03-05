@@ -383,6 +383,13 @@ var staff = [
 		information: 'Marian Villa es docente, diseñadora, comunicadora, desarrolladora y Magister en Mercadeo. Asesora en UI|UX en Google Launchpad y es miembro calificador de SXSW.\nCEO y co-fundadora de EVERSOCIAL, agencia digital.\nDirectora y co-fundadora de @pionerasdev, la Comunidad/ONG más grande de #WomenInTech en Colombia y ahora de la Spin-off WOMINT.',
 		image: 'MarianVilla.png',
 		nationality: 'colombia'
+	},
+	{
+		name: 'Dulce García',
+		short: '',
+		information: '',
+		image: 'default.png',
+		nationality: 'guatemala'
 	}
 
 	/*

@@ -455,6 +455,16 @@ var events = [
 	},
 	/* Viernes 9:40, pendiente Dulce */
 	{
+		name: 'El fitness como filosofía de vida',
+		description: '',
+		speaker: 'Dulce García',
+		day: '6',
+		time:  '09:40',
+		place: 'Track 1 (sábado)',
+		subjects: [],
+		tba: '0'
+	},
+	{
 		name: 'Táctica vs Estrategia ¿Cómo lograr tus metas?',
 		description: '',
 		speaker: 'Isis García',
@@ -679,7 +689,8 @@ var events = [
 		place: 'Track 1 (sábado)',
 		subjects: [],
 		tba: '0'
-	},
+	}
+
 
 ];
 
