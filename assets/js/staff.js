@@ -92,9 +92,9 @@ var staff = [
 	},
 	{
 		name: 'Ana Magaly López',
-		short: 'Odontodiatra, Coach en Salud, Conferencista.',
+		short: 'Odontopediatra, Coach en Salud, Conferencista.',
 		information: 'Esposa, Madre de tres, Odontopediatra,  Coach en Salud.\nConferencista Nacional e Internacional.\nSiempre en búsqueda de aportar a mi país y comunidad.\nInquieta y estudiante eterna.',
-		image: 'default.png',
+		image: 'MagalyLopez.jpg',
 		nationality: 'guatemala'
 	},
 	{
